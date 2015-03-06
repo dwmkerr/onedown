@@ -1,10 +1,9 @@
 var gulp = require('gulp');
 var jshint = require('gulp-jshint');
 var stylish = require('jshint-stylish');
-var express = require('express');
 var path = require('path');
-var connectLivereload = require('connect-livereload');
 var opn = require('opn');
+var server = require('./server/server.js');
 
 //  Copies vendor files over.
 gulp.task('vendor', function() {
@@ -27,14 +26,7 @@ gulp.task('jshint', function() {
 
 //  Starts the express server.
 gulp.task('serve', function() {
-
-  //  Create the app. Serve the samples and the dist.
-  var app = express();
-  app.use(connectLivereload());
-  app.use(express.static(path.join(__dirname, 'client')));
-  app.listen(3000);
-  console.log('Exchange cross words on port 3000');
-
+  server.start();
 });
 
 //  Starts the livereload server.
