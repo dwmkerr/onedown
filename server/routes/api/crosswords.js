@@ -14,7 +14,7 @@ module.exports = function(app) {
 
   app.get('/api/crosswords/:id', function(req, res, next) {
 
-    Crossword.findOne({'userId':req.user._id, '_id':req.params.id}, function(err, crossword) {
+    Crossword.findOne({'_id':req.params.id}, function(err, crossword) {
 
       if(err) return next(err);
       res.send(200, crossword);

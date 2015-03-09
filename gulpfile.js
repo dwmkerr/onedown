@@ -7,7 +7,7 @@ var server = require('./server/server.js');
 
 //  Copies vendor files over.
 gulp.task('vendor', function() {
-  gulp.src('./bower_components/angular/angular.js')
+  gulp.src('./bower_components/angular/angular.*')
     .pipe(gulp.dest('./client/vendor/angular'));
   gulp.src('./bower_components/bootstrap/dist/**/*.*')
     .pipe(gulp.dest('./client/vendor/bootstrap'));
