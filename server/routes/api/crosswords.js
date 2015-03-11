@@ -7,7 +7,7 @@ module.exports = function(app) {
   
     Crossword.find({}, function(err, crosswords) {
       if(err) return next(err);
-      res.send(200, crosswords);
+      res.status(200).send(crosswords);
     });
 
   });
@@ -17,7 +17,7 @@ module.exports = function(app) {
     Crossword.findOne({'_id':req.params.id}, function(err, crossword) {
 
       if(err) return next(err);
-      res.send(200, crossword);
+      res.status(200).send(crossword);
       
     });
   });

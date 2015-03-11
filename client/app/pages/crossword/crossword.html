@@ -1,0 +1,40 @@
+<style>
+    .starter-template {
+      padding: 40px 15px;
+      text-align: center;
+    }
+    .selected {
+      font-weight: bold;
+    }
+    .clueBox {
+      overflow-y: scroll;
+    }
+</style>
+<div class="starter-template">
+  <h1>{{title}} <small><em>by {{setter}}</em></small></h1>
+    
+</div>
+
+<div id="crosswordView">
+
+  <div class="row">
+    <div class="col-md-6">
+      <div class="pull-right">
+        <od-crossword id="xword" crossword="crossword" selected-clue="selectedClue" crossword-height="crosswordHeight"></od-crossword>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="clueBox" ng-style="{'max-height': crosswordHeight}">
+        <h4>Across</h4>
+        <div ng-repeat="clue in acrossClues" ng-class="{selected: isSelected(clue)}">
+          {{clue.number}}. {{clue.clue}}
+        </div>
+        <h4>Down</h4>
+        <div ng-repeat="clue in downClues" ng-class="{selected: isSelected(clue)}">
+          {{clue.number}}. {{clue.clue}}
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>

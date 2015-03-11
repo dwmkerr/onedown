@@ -9,6 +9,7 @@
     <title>One Down</title>
 
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/crosswords-js/crosswords.css" rel="stylesheet">
     <link href="css/onedown.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -18,8 +19,14 @@
 
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/angular/angular.min.js"></script>
+    <script src="vendor/angular-route/angular-route.min.js"></script>
+    <script src="vendor/crosswords-js/crosswords.js"></script>
 
     <script src="app/app.js"></script>
+    <script src="app/pages/home/homecontroller.js"></script>
+    <script src="app/pages/crosswords/crosswordscontroller.js"></script>
+    <script src="app/pages/crossword/crosswordcontroller.js"></script>
+    <script src="app/components/od-crossword/od-crossword.js"></script>
     <script src="app/menu/od-menu.js"></script>
 
     <style>
@@ -44,10 +51,7 @@
 
     <div class="container">
 
-      <div class="starter-template">
-        <h1>Quiptic crossword No 91</h1>
-        <p class="lead"><em>12</em> Smooth lawyers for offshore bank <small>(7)</small></p>
-      </div>
+      <ng-view></ng-view>
 
     </div>
 

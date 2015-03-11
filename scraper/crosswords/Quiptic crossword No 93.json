@@ -1,0 +1,279 @@
+{
+  "acrossClues": [
+    {
+      "clue": "About to fit into shoe, which is an outrage",
+      "length": [
+        7
+      ],
+      "number": 1,
+      "x": 1,
+      "y": 1
+    },
+    {
+      "clue": "Margie holds a penny back: that's witty",
+      "length": [
+        7
+      ],
+      "number": 5,
+      "x": 9,
+      "y": 1
+    },
+    {
+      "clue": "British Broadcasting Corporation looking both ways",
+      "length": [
+        4
+      ],
+      "number": 10,
+      "x": 1,
+      "y": 3
+    },
+    {
+      "clue": "Elite aroma stirred up to become better",
+      "length": [
+        10
+      ],
+      "number": 11,
+      "x": 6,
+      "y": 3
+    },
+    {
+      "clue": "Very large nurse in north-west Belgium",
+      "length": [
+        6
+      ],
+      "number": 12,
+      "x": 1,
+      "y": 5
+    },
+    {
+      "clue": "Syndicate support to return a phone call",
+      "length": [
+        4,
+        4
+      ],
+      "number": 13,
+      "x": 8,
+      "y": 5
+    },
+    {
+      "clue": "Clergyman's residence keeps crime concealed by messenger",
+      "length": [
+        9
+      ],
+      "number": 14,
+      "x": 1,
+      "y": 7
+    },
+    {
+      "clue": "Armada to beat a retreat on time",
+      "length": [
+        5
+      ],
+      "number": 16,
+      "x": 11,
+      "y": 7
+    },
+    {
+      "clue": "Cherish the playful oread",
+      "length": [
+        5
+      ],
+      "number": 17,
+      "x": 1,
+      "y": 9
+    },
+    {
+      "clue": "Cold train crash, so it is believed",
+      "length": [
+        9
+      ],
+      "number": 19,
+      "x": 7,
+      "y": 9
+    },
+    {
+      "clue": "Opening ball used to enter",
+      "length": [
+        8
+      ],
+      "number": 23,
+      "x": 1,
+      "y": 11
+    },
+    {
+      "clue": "The funfair hasn't started, which is not just",
+      "length": [
+        6
+      ],
+      "number": 24,
+      "x": 10,
+      "y": 11
+    },
+    {
+      "clue": "Fish to swallow most quietly, which is rubbish",
+      "length": [
+        10
+      ],
+      "number": 26,
+      "x": 1,
+      "y": 13
+    },
+    {
+      "clue": "Mother returns OK, but in a frenzy",
+      "length": [
+        4
+      ],
+      "number": 27,
+      "x": 12,
+      "y": 13
+    },
+    {
+      "clue": "Pupil becoming half-deaf in stunt",
+      "length": [
+        7
+      ],
+      "number": 28,
+      "x": 1,
+      "y": 15
+    },
+    {
+      "clue": "Big name, Edward, kicked off",
+      "length": [
+        7
+      ],
+      "number": 29,
+      "x": 9,
+      "y": 15
+    }
+  ],
+  "downClues": [
+    {
+      "clue": "Footballers otherwise featured in endless chat",
+      "length": [
+        7
+      ],
+      "number": 2,
+      "x": 2,
+      "y": 1
+    },
+    {
+      "clue": "Blue-blooded brave",
+      "length": [
+        5
+      ],
+      "number": 3,
+      "x": 4,
+      "y": 1
+    },
+    {
+      "clue": "Recklessness gets a group functioning",
+      "length": [
+        7
+      ],
+      "number": 4,
+      "x": 6,
+      "y": 1
+    },
+    {
+      "clue": "Supple one cutting plant",
+      "length": [
+        6
+      ],
+      "number": 6,
+      "x": 10,
+      "y": 1
+    },
+    {
+      "clue": "The blouse that took the biscuit!",
+      "length": [
+        9
+      ],
+      "number": 7,
+      "x": 12,
+      "y": 1
+    },
+    {
+      "clue": "Embassy official has a dry ache",
+      "length": [
+        7
+      ],
+      "number": 8,
+      "x": 14,
+      "y": 1
+    },
+    {
+      "clue": "Annoyance caused by brutal dog, real yet false",
+      "length": [
+        3,
+        3,
+        2,
+        1,
+        4
+      ],
+      "number": 9,
+      "x": 8,
+      "y": 2
+    },
+    {
+      "clue": "Shocked to see spur used wildly on frenzied rides",
+      "length": [
+        9
+      ],
+      "number": 15,
+      "x": 4,
+      "y": 7
+    },
+    {
+      "clue": "What makes Dr Round pout and leave?",
+      "length": [
+        4,
+        3
+      ],
+      "number": 18,
+      "x": 2,
+      "y": 9
+    },
+    {
+      "clue": "MP kept in right time to the instrument",
+      "length": [
+        7
+      ],
+      "number": 20,
+      "x": 10,
+      "y": 9
+    },
+    {
+      "clue": "Fat Ida turns up to act",
+      "length": [
+        7
+      ],
+      "number": 21,
+      "x": 14,
+      "y": 9
+    },
+    {
+      "clue": "One enters in vehicle without success",
+      "length": [
+        2,
+        4
+      ],
+      "number": 22,
+      "x": 6,
+      "y": 10
+    },
+    {
+      "clue": "Little Alfred put up with taxman's skill",
+      "length": [
+        5
+      ],
+      "number": 25,
+      "x": 12,
+      "y": 11
+    }
+  ],
+  "height": 15,
+  "setter": "Don Putnam",
+  "setterUrl": "http://www.theguardian.com/profile/don-putnam",
+  "title": "Quiptic crossword No 93",
+  "width": 15
+}

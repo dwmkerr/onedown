@@ -17,15 +17,18 @@
   },
   "homepage": "https://github.com/dwmkerr/onedown",
   "devDependencies": {
+    "compile": "0.0.2",
     "gulp": "^3.8.11",
     "gulp-jshint": "^1.9.2",
     "jshint": "^2.6.3",
     "jshint-stylish": "^1.0.1",
-    "opn": "^1.0.1"
+    "opn": "^1.0.1",
+    "phantomjs": "^1.9.16"
   },
   "dependencies": {
     "connect-livereload": "^0.5.3",
     "express": "^4.12.2",
+    "mongoose": "^3.8.24",
     "tiny-lr": "^0.1.5"
   }
 }

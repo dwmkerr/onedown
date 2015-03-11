@@ -3,12 +3,15 @@ var jshint = require('gulp-jshint');
 var stylish = require('jshint-stylish');
 var path = require('path');
 var opn = require('opn');
-var server = require('./server/server.js');
 
 //  Copies vendor files over.
 gulp.task('vendor', function() {
   gulp.src('./bower_components/angular/angular.*')
     .pipe(gulp.dest('./client/vendor/angular'));
+  gulp.src('./bower_components/angular-route/angular-route.*')
+    .pipe(gulp.dest('./client/vendor/angular-route'));
+  gulp.src('./bower_components/crosswords-js/dist/*.*')
+    .pipe(gulp.dest('./client/vendor/crosswords-js'));
   gulp.src('./bower_components/bootstrap/dist/**/*.*')
     .pipe(gulp.dest('./client/vendor/bootstrap'));
   gulp.src('./bower_components/jquery/dist/**/*.*')
@@ -24,11 +27,6 @@ gulp.task('jshint', function() {
 
 });
 
-//  Starts the express server.
-gulp.task('serve', function() {
-  server.start();
-});
-
 //  Starts the livereload server.
 var tinylr;
 gulp.task('livereload', function() {
@@ -37,8 +35,6 @@ gulp.task('livereload', function() {
 });
 
 function notifyLiveReload(event) {
-
-  console.log("Reloading for " + event.path);
 
   var fileName = path.relative(__dirname, event.path);
 
@@ -64,10 +60,10 @@ gulp.task('watch', function() {
   // gulp.watch(['src/**.less'], ['css']);
 
   //  Reload on client changes.
-  gulp.watch(['samples/**/*.*'], notifyLiveReload);
+  gulp.watch(['client/**/*.*'], notifyLiveReload);
 
 });
 
-gulp.task('default', ['vendor', 'serve', 'livereload', 'watch'], function() {
+gulp.task('default', ['vendor', 'livereload', 'watch'], function() {
   opn('http://localhost:3000');
 });

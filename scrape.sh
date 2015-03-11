@@ -1,0 +1,1 @@
+node ./scraper/scraper.js http://www.theguardian.com/crosswords/quiptic/93 ./crosswords

@@ -1,0 +1,6 @@
+<h3>Crosswords</h3>
+
+<div ng-repeat="crossword in crosswords">
+<h5><a ng-href="#/crosswords/{{crossword._id}}">{{crossword.title}}</a></h5>
+<hr ng-show="!$last" />
+</div>

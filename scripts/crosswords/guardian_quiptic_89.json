@@ -1,0 +1,476 @@
+[{
+  "title": "Guardian Quiptic 89",
+  "setter": "Moley",
+  "setterUrl": "http://www.theguardian.com/profile/moley",
+  "sourceUrl": "http://www.theguardian.com/crosswords/quiptic/89",
+  "width": 15,
+  "height": 15,
+  "acrossClues": [
+    {
+      "number": 1,
+      "x": 2,
+      "y": 1,
+      "length": [
+        8,
+        5
+      ],
+      
+      "clue": "Conspicuous influence exerted by active troops (8,5)"
+    },
+    {
+      "number": 10,
+      "x": 1,
+      "y": 3,
+      "length": [
+        9
+      ],
+      
+      "clue": "A coy sort of miss pointlessly promoting lawlessness (9)"
+    },
+    {
+      "number": 11,
+      "x": 11,
+      "y": 3,
+      "length": [
+        5
+      ],
+      "clue": "Colour for cockney isn't soft originally (5)",
+      "direction": "across"
+    },
+    {
+      "number": 12, "x": 1, "y": 5, "length": [5], 
+      "clue": "Put to rest in Tintern Abbey (5)"
+    },
+    {
+      "number": 13, "x": 7, "y": 5, "length": [3,6], 
+      "clue": "Suffering this, I left with the hall spinning (3-6)"
+    },
+    {
+      "number": 14, "x": 1, "y": 7, "length": [7], 
+      "clue": "Publicity about North American student describing a gland (7)"
+    },
+    {
+      "number": 16, "x": 9, "y": 7, "length": [7], 
+      "clue": "Artist upset class of rogues (7)"
+    },
+    {
+      "number": 18, "x": 1, "y": 9, "length": [4,3], 
+      "clue": "Wrest butane, for example, from riot controller? (4-3)"
+    },
+    {
+      "number": 20, "x": 9, "y": 9, "length": [7], 
+      "clue": "Firm to get under way with a flower show (7)"
+    },
+    {
+      "number": 21, "x": 1, "y": 11, "length": [9], 
+      "clue": "Visibility is less, but including a prospect of being maintained (9)"
+    },
+    {
+      "number": 23, "x": 11, "y": 11, "length": [5], 
+      "clue": "Ease pressure and put the Spanish back (5)"
+    },
+    {
+      "number": 24, "x": 1, "y": 13, "length": [5], 
+      "clue": "Stumble? Third fielder? Rubbish! (5)"
+    },
+    {
+      "number": 25, "x": 7, "y": 13, "length": [9], 
+      "clue": "Silly old stooge, one of a pair, in baggy trousers (9)"
+    },
+    {
+      "number": 26, "x": 2, "y": 15, "length": [3,2,3,5], 
+      "clue": "Test, touch each composition and get to the point (3,2,3,5)"
+    }
+  ],
+  "downClues": [
+    {
+      "number": 2,
+      "x": 3,
+      "y": 1,
+      "length": [
+        9
+      ],
+      
+      "clue": "Vic left the Spice Girl after tart turned up in restaurant (9)"
+    },
+    {
+      "number": 3,
+      "x": 5,
+      "y": 1,
+      "length": [
+        5
+      ],
+      
+      "clue": "Provoke fashionable hound (5)"
+    },
+    {
+      "number": 4,
+      "x": 7,
+      "y": 1,
+      "length": [
+        7
+      ],
+      
+      "clue": "First capital? (7)"
+    },
+    {
+      "number": 5,
+      "x": 9,
+      "y": 1,
+      "length": [
+        7
+      ],
+      
+      "clue": "One speculating how to get better (7)"
+    },
+    {
+      "number": 6,
+      "x": 11,
+      "y": 1,
+      "length": [
+        9
+      ],
+      
+      "clue": "Work with the media or a slave-driver (9)"
+    },
+    {
+      "number": 7,
+      "x": 13,
+      "y": 1,
+      "length": [
+        5
+      ],
+      
+      "clue": "Cool, cool beginner on the up and up (5)"
+    },
+    {
+      "number": 8,
+      "x": 1,
+      "y": 2,
+      "length": [
+        13
+      ],
+      
+      "clue": "Deadly kind of broadcasting? (13)"
+    },
+    {
+      "number": 9,
+      "x": 15,
+      "y": 2,
+      "length": [
+        9
+      ],
+      
+      "clue": "The point where the action is (2,3,5,3)"
+    },
+    {
+      "number": 15, "x": 5, "y": 7, "length": [9],
+      
+      "clue": "15 Indifferent to broken egg in Lent (9)"
+    },
+    {
+      "number": 17, "x": 13, "y": 7, "length": [9],
+      
+      "clue": "Awful insult a boy mostly suffered when washing (9)"
+    },
+    {
+      "number": 19, "x": 7, "y": 9, "length": [7],
+      
+      "clue": "Clipping trim animal (7)"
+    },
+    {
+      "number": 20, "x": 9, "y": 9, "length": [7],
+      
+      "clue": "Money in cane container for hot spice (7)"
+    },
+    {
+      "number": 22, "x": 3, "y": 11, "length": [5],
+      
+      "clue": "A French god's valediction (5)"
+    },
+    {
+      "number": 23, "x": 11, "y": 11, "length": [5],
+      
+      "clue": "Tether student on drug to a tree (5)"
+    }
+  ]
+},
+{
+  "acrossClues": [
+    {
+      "clue": "About to fit into shoe, which is an outrage",
+      "length": [
+        7
+      ],
+      "number": 1,
+      "x": 1,
+      "y": 1
+    },
+    {
+      "clue": "Margie holds a penny back: that's witty",
+      "length": [
+        7
+      ],
+      "number": 5,
+      "x": 9,
+      "y": 1
+    },
+    {
+      "clue": "British Broadcasting Corporation looking both ways",
+      "length": [
+        4
+      ],
+      "number": 10,
+      "x": 1,
+      "y": 3
+    },
+    {
+      "clue": "Elite aroma stirred up to become better",
+      "length": [
+        10
+      ],
+      "number": 11,
+      "x": 6,
+      "y": 3
+    },
+    {
+      "clue": "Very large nurse in north-west Belgium",
+      "length": [
+        6
+      ],
+      "number": 12,
+      "x": 1,
+      "y": 5
+    },
+    {
+      "clue": "Syndicate support to return a phone call",
+      "length": [
+        4,
+        4
+      ],
+      "number": 13,
+      "x": 8,
+      "y": 5
+    },
+    {
+      "clue": "Clergyman's residence keeps crime concealed by messenger",
+      "length": [
+        9
+      ],
+      "number": 14,
+      "x": 1,
+      "y": 7
+    },
+    {
+      "clue": "Armada to beat a retreat on time",
+      "length": [
+        5
+      ],
+      "number": 16,
+      "x": 11,
+      "y": 7
+    },
+    {
+      "clue": "Cherish the playful oread",
+      "length": [
+        5
+      ],
+      "number": 17,
+      "x": 1,
+      "y": 9
+    },
+    {
+      "clue": "Cold train crash, so it is believed",
+      "length": [
+        9
+      ],
+      "number": 19,
+      "x": 7,
+      "y": 9
+    },
+    {
+      "clue": "Opening ball used to enter",
+      "length": [
+        8
+      ],
+      "number": 23,
+      "x": 1,
+      "y": 11
+    },
+    {
+      "clue": "The funfair hasn't started, which is not just",
+      "length": [
+        6
+      ],
+      "number": 24,
+      "x": 10,
+      "y": 11
+    },
+    {
+      "clue": "Fish to swallow most quietly, which is rubbish",
+      "length": [
+        10
+      ],
+      "number": 26,
+      "x": 1,
+      "y": 13
+    },
+    {
+      "clue": "Mother returns OK, but in a frenzy",
+      "length": [
+        4
+      ],
+      "number": 27,
+      "x": 12,
+      "y": 13
+    },
+    {
+      "clue": "Pupil becoming half-deaf in stunt",
+      "length": [
+        7
+      ],
+      "number": 28,
+      "x": 1,
+      "y": 15
+    },
+    {
+      "clue": "Big name, Edward, kicked off",
+      "length": [
+        7
+      ],
+      "number": 29,
+      "x": 9,
+      "y": 15
+    }
+  ],
+  "downClues": [
+    {
+      "clue": "Footballers otherwise featured in endless chat",
+      "length": [
+        7
+      ],
+      "number": 2,
+      "x": 2,
+      "y": 1
+    },
+    {
+      "clue": "Blue-blooded brave",
+      "length": [
+        5
+      ],
+      "number": 3,
+      "x": 4,
+      "y": 1
+    },
+    {
+      "clue": "Recklessness gets a group functioning",
+      "length": [
+        7
+      ],
+      "number": 4,
+      "x": 6,
+      "y": 1
+    },
+    {
+      "clue": "Supple one cutting plant",
+      "length": [
+        6
+      ],
+      "number": 6,
+      "x": 10,
+      "y": 1
+    },
+    {
+      "clue": "The blouse that took the biscuit!",
+      "length": [
+        9
+      ],
+      "number": 7,
+      "x": 12,
+      "y": 1
+    },
+    {
+      "clue": "Embassy official has a dry ache",
+      "length": [
+        7
+      ],
+      "number": 8,
+      "x": 14,
+      "y": 1
+    },
+    {
+      "clue": "Annoyance caused by brutal dog, real yet false",
+      "length": [
+        3,
+        3,
+        2,
+        1,
+        4
+      ],
+      "number": 9,
+      "x": 8,
+      "y": 2
+    },
+    {
+      "clue": "Shocked to see spur used wildly on frenzied rides",
+      "length": [
+        9
+      ],
+      "number": 15,
+      "x": 4,
+      "y": 7
+    },
+    {
+      "clue": "What makes Dr Round pout and leave?",
+      "length": [
+        4,
+        3
+      ],
+      "number": 18,
+      "x": 2,
+      "y": 9
+    },
+    {
+      "clue": "MP kept in right time to the instrument",
+      "length": [
+        7
+      ],
+      "number": 20,
+      "x": 10,
+      "y": 9
+    },
+    {
+      "clue": "Fat Ida turns up to act",
+      "length": [
+        7
+      ],
+      "number": 21,
+      "x": 14,
+      "y": 9
+    },
+    {
+      "clue": "One enters in vehicle without success",
+      "length": [
+        2,
+        4
+      ],
+      "number": 22,
+      "x": 6,
+      "y": 10
+    },
+    {
+      "clue": "Little Alfred put up with taxman's skill",
+      "length": [
+        5
+      ],
+      "number": 25,
+      "x": 12,
+      "y": 11
+    }
+  ],
+  "height": 15,
+  "setter": "Don Putnam",
+  "setterUrl": "http://www.theguardian.com/profile/don-putnam",
+  "title": "Quiptic crossword No 93",
+  "width": 15
+}]
