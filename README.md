@@ -7,8 +7,10 @@ Star clues
 
 The following data must be exported to environment variables:
 
-* `ONEDOWN_AUTH0_SECRET`: 
-* `ONEDOWN_AUTH0_AUDIENCE`:
+* `ONEDOWN_AUTH0_SECRET`: The Auth0 development app secret.
+* `ONEDOWN_AUTH0_AUDIENCE`: The Auth0 development app audience.
+
+Use the files in `scripts\environment` as a template to add these values to the environment.
 
 The following components should be installed on a local development machine:
 

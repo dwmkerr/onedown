@@ -1,21 +1,21 @@
+var config = require('config');
+var jwt = require('express-jwt');
 var Crossword = require('../models/crossword.js');
 var Solution = require('../models/solution.js');
-var config = require('./config/config.js');
-var jwt = require('express-jwt');
 
 //  'requireAuthentication' middleware throws 401 if the
 //  request is not authenticated.
 var requireAuthentication = jwt({
-  secret: new Buffer(config.auth0.secret, 'base64'),
-  audience: config.auth0.audience
+  secret: new Buffer(config.get('auth0.secret'), 'base64'),
+  audience: config.get('auth0.audience')
 });
 
 //  'supportAuthentication' allows unauthorised requests (which)
 //  may return limited data) and supports authorised requests.
 //  Invalid authorisation still results in a 401.
 var supportAuthentication = jwt({
-  secret: new Buffer(config.auth0.secret, 'base64'),
-  audience: config.auth0.audience,
+  secret: new Buffer(config.get('auth0.secret'), 'base64'),
+  audience: config.get('auth0.audience'),
   credentialsRequired: false
 });
 
