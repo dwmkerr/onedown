@@ -1,6 +1,6 @@
 module.exports = {
   name: "Production",
-  port: 80,
+  port: 8081,         // nginx running as a reverse proxy, 80 -> 8081 
   db: {
     connectionString: 'mongodb://localhost:27017/onedown'
   },
