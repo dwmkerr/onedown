@@ -1,0 +1,272 @@
+{
+  "acrossClues": [
+    {
+      "clue": "Conflict was backed by capital",
+      "length": [
+        6
+      ],
+      "number": 1,
+      "x": 2,
+      "y": 1
+    },
+    {
+      "clue": "Plays guitar in the streets -- it's odd!",
+      "length": [
+        6
+      ],
+      "number": 4,
+      "x": 9,
+      "y": 1
+    },
+    {
+      "clue": "Ann will accept a ring before long",
+      "length": [
+        4
+      ],
+      "number": 9,
+      "x": 1,
+      "y": 3
+    },
+    {
+      "clue": "Women you can put up with",
+      "length": [
+        10
+      ],
+      "number": 10,
+      "x": 6,
+      "y": 3
+    },
+    {
+      "clue": "Medical Officer uses different hair stuff",
+      "length": [
+        6
+      ],
+      "number": 11,
+      "x": 1,
+      "y": 5
+    },
+    {
+      "clue": "Mention mixture, the first true soothing preparation",
+      "length": [
+        8
+      ],
+      "number": 12,
+      "x": 8,
+      "y": 5
+    },
+    {
+      "clue": "Dick, the CID man",
+      "length": [
+        9
+      ],
+      "number": 13,
+      "x": 1,
+      "y": 7
+    },
+    {
+      "clue": "Guy dancing is about 50, that's plain",
+      "length": [
+        4
+      ],
+      "number": 15,
+      "x": 11,
+      "y": 7
+    },
+    {
+      "clue": "Lover boy's painful back",
+      "length": [
+        4
+      ],
+      "number": 16,
+      "x": 2,
+      "y": 9
+    },
+    {
+      "clue": "Insufficiently cooked, turned red inside: ruined!",
+      "length": [
+        9
+      ],
+      "number": 17,
+      "x": 7,
+      "y": 9
+    },
+    {
+      "clue": "Abraham sent note in; he's staying away",
+      "length": [
+        8
+      ],
+      "number": 21,
+      "x": 1,
+      "y": 11
+    },
+    {
+      "clue": "Bitter in big can",
+      "length": [
+        6
+      ],
+      "number": 22,
+      "x": 10,
+      "y": 11
+    },
+    {
+      "clue": "Furious Turkish commander's car gets here",
+      "length": [
+        10
+      ],
+      "number": 24,
+      "x": 1,
+      "y": 13
+    },
+    {
+      "clue": "Artless devotee returns carrying one",
+      "length": [
+        4
+      ],
+      "number": 25,
+      "x": 12,
+      "y": 13
+    },
+    {
+      "clue": "Looking at watch in front garden",
+      "length": [
+        6
+      ],
+      "number": 26,
+      "x": 2,
+      "y": 15
+    },
+    {
+      "clue": "Stage directors make these",
+      "length": [
+        6
+      ],
+      "number": 27,
+      "x": 9,
+      "y": 15
+    }
+  ],
+  "downClues": [
+    {
+      "clue": "Come away with several, being charming",
+      "length": [
+        7
+      ],
+      "number": 1,
+      "x": 2,
+      "y": 1
+    },
+    {
+      "clue": "Grins stupidly and made a telephone call",
+      "length": [
+        5
+      ],
+      "number": 2,
+      "x": 4,
+      "y": 1
+    },
+    {
+      "clue": "Aim to take student to hospital department -- because of this?",
+      "length": [
+        7
+      ],
+      "number": 3,
+      "x": 6,
+      "y": 1
+    },
+    {
+      "clue": "Gift obtained, thanks to a fast time",
+      "length": [
+        6
+      ],
+      "number": 5,
+      "x": 10,
+      "y": 1
+    },
+    {
+      "clue": "A French mother, elderly, is not harmed",
+      "length": [
+        9
+      ],
+      "number": 6,
+      "x": 12,
+      "y": 1
+    },
+    {
+      "clue": "Strictly dressed, RN-style",
+      "length": [
+        7
+      ],
+      "number": 7,
+      "x": 14,
+      "y": 1
+    },
+    {
+      "clue": "Trouble at public lavatory?",
+      "length": [
+        13
+      ],
+      "number": 8,
+      "x": 8,
+      "y": 2
+    },
+    {
+      "clue": "Former husband one has to scold and acquit",
+      "length": [
+        9
+      ],
+      "number": 14,
+      "x": 4,
+      "y": 7
+    },
+    {
+      "clue": "Hug me when standing with a couple",
+      "length": [
+        7
+      ],
+      "number": 16,
+      "x": 2,
+      "y": 9
+    },
+    {
+      "clue": "Bar with amber liquid to try!",
+      "length": [
+        7
+      ],
+      "number": 18,
+      "x": 10,
+      "y": 9
+    },
+    {
+      "clue": "Girl going in two directions to find goats",
+      "length": [
+        7
+      ],
+      "number": 19,
+      "x": 14,
+      "y": 9
+    },
+    {
+      "clue": "Street water filter",
+      "length": [
+        6
+      ],
+      "number": 20,
+      "x": 6,
+      "y": 10
+    },
+    {
+      "clue": "A number -- or the one who sings it?",
+      "length": [
+        5
+      ],
+      "number": 23,
+      "x": 12,
+      "y": 11
+    }
+  ],
+  "height": 15,
+  "setter": "Guy",
+  "setterUrl": "http://www.theguardian.com/profile/guy",
+  "title": "Quiptic crossword No 85",
+  "width": 15
+}

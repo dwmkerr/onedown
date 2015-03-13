@@ -1,0 +1,299 @@
+{
+  "acrossClues": [
+    {
+      "clue": "Kitchen sideboard wanted for theatre employee",
+      "length": [
+        7
+      ],
+      "number": 1,
+      "x": 1,
+      "y": 1
+    },
+    {
+      "clue": "Contemplate getting into bed, bewildered!",
+      "length": [
+        7
+      ],
+      "number": 5,
+      "x": 9,
+      "y": 1
+    },
+    {
+      "clue": "Music in \"Thieving Magpie\" cellists love",
+      "length": [
+        5
+      ],
+      "number": 9,
+      "x": 1,
+      "y": 3
+    },
+    {
+      "clue": "Left in excellent bit of roast pork",
+      "length": [
+        9
+      ],
+      "number": 10,
+      "x": 7,
+      "y": 3
+    },
+    {
+      "clue": "Opposed to having journalist behind bar",
+      "length": [
+        9
+      ],
+      "number": 11,
+      "x": 1,
+      "y": 5
+    },
+    {
+      "clue": "Where one is sitting in an upholstered seat?",
+      "length": [
+        5
+      ],
+      "number": 12,
+      "x": 11,
+      "y": 5
+    },
+    {
+      "clue": "Go round for something for her to wear",
+      "length": [
+        5
+      ],
+      "number": 13,
+      "x": 1,
+      "y": 7
+    },
+    {
+      "clue": "Get rid of brewed ale in time",
+      "length": [
+        9
+      ],
+      "number": 15,
+      "x": 7,
+      "y": 7
+    },
+    {
+      "clue": "Drills and cuts out round a ruler",
+      "length": [
+        9
+      ],
+      "number": 18,
+      "x": 1,
+      "y": 9
+    },
+    {
+      "clue": "Try to persuade relief worker to start talking",
+      "length": [
+        5
+      ],
+      "number": 19,
+      "x": 11,
+      "y": 9
+    },
+    {
+      "clue": "Poor misguided fellow needed evidence",
+      "length": [
+        5
+      ],
+      "number": 21,
+      "x": 1,
+      "y": 11
+    },
+    {
+      "clue": "Be taking on a bit of a French emperor",
+      "length": [
+        9
+      ],
+      "number": 23,
+      "x": 7,
+      "y": 11
+    },
+    {
+      "clue": "Tease, till upset, a space traveller",
+      "length": [
+        9
+      ],
+      "number": 25,
+      "x": 1,
+      "y": 13
+    },
+    {
+      "clue": "Encircle the globe with it",
+      "length": [
+        5
+      ],
+      "number": 26,
+      "x": 11,
+      "y": 13
+    },
+    {
+      "clue": "Rotten month? Yes, to a former copper!",
+      "length": [
+        7
+      ],
+      "number": 27,
+      "x": 1,
+      "y": 15
+    },
+    {
+      "clue": "Intellectual, for example, and good to lead",
+      "length": [
+        7
+      ],
+      "number": 28,
+      "x": 9,
+      "y": 15
+    }
+  ],
+  "downClues": [
+    {
+      "clue": "Describes tea, say, in spiced mixture",
+      "length": [
+        7
+      ],
+      "number": 1,
+      "x": 1,
+      "y": 1
+    },
+    {
+      "clue": "Person in administration wanted about four put to death",
+      "length": [
+        9
+      ],
+      "number": 2,
+      "x": 3,
+      "y": 1
+    },
+    {
+      "clue": "Charming little street on the outskirts",
+      "length": [
+        5
+      ],
+      "number": 3,
+      "x": 5,
+      "y": 1
+    },
+    {
+      "clue": "Videos court officials",
+      "length": [
+        9
+      ],
+      "number": 4,
+      "x": 7,
+      "y": 1
+    },
+    {
+      "clue": "Boring billboard's first to come down",
+      "length": [
+        5
+      ],
+      "number": 5,
+      "x": 9,
+      "y": 1
+    },
+    {
+      "clue": "Manufacture women's garment as a temporary substitute",
+      "length": [
+        9
+      ],
+      "number": 6,
+      "x": 11,
+      "y": 1
+    },
+    {
+      "clue": "Person who is late starts silly quarrel",
+      "length": [
+        5
+      ],
+      "number": 7,
+      "x": 13,
+      "y": 1
+    },
+    {
+      "clue": "Leading doctor agreed being wrong causes dishonour",
+      "length": [
+        7
+      ],
+      "number": 8,
+      "x": 15,
+      "y": 1
+    },
+    {
+      "clue": "In a diplomatic way, filled in catty members",
+      "length": [
+        9
+      ],
+      "number": 14,
+      "x": 5,
+      "y": 7
+    },
+    {
+      "clue": "Fashionable because about to become hypocritical",
+      "length": [
+        9
+      ],
+      "number": 16,
+      "x": 9,
+      "y": 7
+    },
+    {
+      "clue": "Excellent! Blair made changes",
+      "length": [
+        9
+      ],
+      "number": 17,
+      "x": 13,
+      "y": 7
+    },
+    {
+      "clue": "Divorcee sat for an artist, naked",
+      "length": [
+        7
+      ],
+      "number": 18,
+      "x": 1,
+      "y": 9
+    },
+    {
+      "clue": "Handled in a patient way?",
+      "length": [
+        7
+      ],
+      "number": 20,
+      "x": 15,
+      "y": 9
+    },
+    {
+      "clue": "Eye crooked cop with it",
+      "length": [
+        5
+      ],
+      "number": 22,
+      "x": 3,
+      "y": 11
+    },
+    {
+      "clue": "Unable to see, as closed at one end",
+      "length": [
+        5
+      ],
+      "number": 23,
+      "x": 7,
+      "y": 11
+    },
+    {
+      "clue": "Spike, caught in an apron, goes red!",
+      "length": [
+        5
+      ],
+      "number": 24,
+      "x": 11,
+      "y": 11
+    }
+  ],
+  "height": 15,
+  "setter": "Guy",
+  "setterUrl": "http://www.theguardian.com/profile/guy",
+  "title": "Quiptic crossword No 88",
+  "width": 15
+}

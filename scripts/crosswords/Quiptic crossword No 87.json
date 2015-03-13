@@ -1,0 +1,269 @@
+{
+  "acrossClues": [
+    {
+      "clue": "It's satisfying that joy returns when grub's around",
+      "length": [
+        8
+      ],
+      "number": 1,
+      "x": 1,
+      "y": 1
+    },
+    {
+      "clue": "Best hint? On the contrary! First class!",
+      "length": [
+        6
+      ],
+      "number": 5,
+      "x": 10,
+      "y": 1
+    },
+    {
+      "clue": "Rugby player to keep away",
+      "length": [
+        5,
+        3
+      ],
+      "number": 9,
+      "x": 1,
+      "y": 3
+    },
+    {
+      "clue": "I am behind the bishop in the coal-scuttle, which is awful",
+      "length": [
+        6
+      ],
+      "number": 10,
+      "x": 10,
+      "y": 3
+    },
+    {
+      "clue": "Place of activity, partly for those with bare navels!",
+      "length": [
+        5
+      ],
+      "number": 12,
+      "x": 1,
+      "y": 5
+    },
+    {
+      "clue": "Reorganisation of RAF in grey, becoming thinner",
+      "length": [
+        9
+      ],
+      "number": 13,
+      "x": 7,
+      "y": 5
+    },
+    {
+      "clue": "Suggestion of words being composed on behalf of the author",
+      "length": [
+        12
+      ],
+      "number": 14,
+      "x": 4,
+      "y": 7
+    },
+    {
+      "clue": "Distributed reward of poet to prevent from getting wet",
+      "length": [
+        12
+      ],
+      "number": 18,
+      "x": 1,
+      "y": 9
+    },
+    {
+      "clue": "Step in to bury seed, so we hear",
+      "length": [
+        9
+      ],
+      "number": 21,
+      "x": 1,
+      "y": 11
+    },
+    {
+      "clue": "Case is trivial, if lacking four or six",
+      "length": [
+        5
+      ],
+      "number": 23,
+      "x": 11,
+      "y": 11
+    },
+    {
+      "clue": "Some get all shook up when broadcasters get together",
+      "length": [
+        4,
+        2
+      ],
+      "number": 24,
+      "x": 1,
+      "y": 13
+    },
+    {
+      "clue": "Edible seed taken from hick in crumpled cape",
+      "length": [
+        8
+      ],
+      "number": 25,
+      "x": 8,
+      "y": 13
+    },
+    {
+      "clue": "Sycophants must be small in Yemen",
+      "length": [
+        3,
+        3
+      ],
+      "number": 26,
+      "x": 1,
+      "y": 15
+    },
+    {
+      "clue": "Forerunners of public relations to escape to the South",
+      "length": [
+        8
+      ],
+      "number": 27,
+      "x": 8,
+      "y": 15
+    }
+  ],
+  "downClues": [
+    {
+      "clue": "Budgetary bluff is called, partly at least!",
+      "length": [
+        6
+      ],
+      "number": 1,
+      "x": 1,
+      "y": 1
+    },
+    {
+      "clue": "I remove marks ages before the Queen",
+      "length": [
+        6
+      ],
+      "number": 2,
+      "x": 3,
+      "y": 1
+    },
+    {
+      "clue": "Crime boss at a christening?",
+      "length": [
+        9
+      ],
+      "number": 3,
+      "x": 5,
+      "y": 1
+    },
+    {
+      "clue": "A kind of blue way to a London shopping centre",
+      "length": [
+        6,
+        6
+      ],
+      "number": 4,
+      "x": 7,
+      "y": 1
+    },
+    {
+      "clue": "Rachmaninoff's ending played in the billiard hall?",
+      "length": [
+        2,
+        3
+      ],
+      "number": 6,
+      "x": 11,
+      "y": 1
+    },
+    {
+      "clue": "It's great to get up cold, if it covers boob",
+      "length": [
+        8
+      ],
+      "number": 7,
+      "x": 13,
+      "y": 1
+    },
+    {
+      "clue": "Teaching's soft and tense, since being retained",
+      "length": [
+        8
+      ],
+      "number": 8,
+      "x": 15,
+      "y": 1
+    },
+    {
+      "clue": "Grand argument to get her to close ranks",
+      "length": [
+        4,
+        8
+      ],
+      "number": 11,
+      "x": 9,
+      "y": 4
+    },
+    {
+      "clue": "Candle: I need it to crumble just the same",
+      "length": [
+        9
+      ],
+      "number": 15,
+      "x": 11,
+      "y": 7
+    },
+    {
+      "clue": "Show Lily dancing in a solemn way",
+      "length": [
+        8
+      ],
+      "number": 16,
+      "x": 1,
+      "y": 8
+    },
+    {
+      "clue": "King''s Cross and Euston - there's more than one calling here",
+      "length": [
+        8
+      ],
+      "number": 17,
+      "x": 3,
+      "y": 8
+    },
+    {
+      "clue": "A small demon seen in a hat, which is transparent",
+      "length": [
+        6
+      ],
+      "number": 19,
+      "x": 13,
+      "y": 10
+    },
+    {
+      "clue": "Law, say, is involved on every occasion",
+      "length": [
+        6
+      ],
+      "number": 20,
+      "x": 15,
+      "y": 10
+    },
+    {
+      "clue": "Itinerary and starting point by the sound of it",
+      "length": [
+        5
+      ],
+      "number": 22,
+      "x": 5,
+      "y": 11
+    }
+  ],
+  "height": 15,
+  "setter": "Don Putnam",
+  "setterUrl": "http://www.theguardian.com/profile/don-putnam",
+  "title": "Quiptic crossword No 87",
+  "width": 15
+}

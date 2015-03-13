@@ -1,0 +1,266 @@
+{
+  "acrossClues": [
+    {
+      "clue": "Bear to carry round the French artist",
+      "length": [
+        8
+      ],
+      "number": 1,
+      "x": 1,
+      "y": 1
+    },
+    {
+      "clue": "Gunman takes bearing, pulls back pin and turns about",
+      "length": [
+        6
+      ],
+      "number": 5,
+      "x": 10,
+      "y": 1
+    },
+    {
+      "clue": "Enchanting Scotsman is a conjuror",
+      "length": [
+        8
+      ],
+      "number": 9,
+      "x": 1,
+      "y": 3
+    },
+    {
+      "clue": "Mollycoddle company of saints by knocking back endless tea",
+      "length": [
+        6
+      ],
+      "number": 10,
+      "x": 10,
+      "y": 3
+    },
+    {
+      "clue": "Soft drink to make you feel better",
+      "length": [
+        5
+      ],
+      "number": 12,
+      "x": 1,
+      "y": 5
+    },
+    {
+      "clue": "\"It's Paul, right\" I managed. \"Divine!\"",
+      "length": [
+        9
+      ],
+      "number": 13,
+      "x": 7,
+      "y": 5
+    },
+    {
+      "clue": "Thousands backing the Spanish and French on Florida islands; they will open any door",
+      "length": [
+        8,
+        4
+      ],
+      "number": 14,
+      "x": 4,
+      "y": 7
+    },
+    {
+      "clue": "Is a story fact muddled? That's acceptable",
+      "length": [
+        12
+      ],
+      "number": 18,
+      "x": 1,
+      "y": 9
+    },
+    {
+      "clue": "Old news broadcaster may weep for the community",
+      "length": [
+        4,
+        5
+      ],
+      "number": 21,
+      "x": 1,
+      "y": 11
+    },
+    {
+      "clue": "Stone found in the crag at Edale",
+      "length": [
+        5
+      ],
+      "number": 23,
+      "x": 11,
+      "y": 11
+    },
+    {
+      "clue": "Rite almost enveloped in beam of sunlight - that's something unusual",
+      "length": [
+        6
+      ],
+      "number": 24,
+      "x": 1,
+      "y": 13
+    },
+    {
+      "clue": "Thunder drops below, so it's excellent to come down somewhere in South-East Asia",
+      "length": [
+        8
+      ],
+      "number": 25,
+      "x": 8,
+      "y": 13
+    },
+    {
+      "clue": "Cuban leader orders actors about",
+      "length": [
+        6
+      ],
+      "number": 26,
+      "x": 1,
+      "y": 15
+    },
+    {
+      "clue": "By the sound of it, cheery and drunk Cockney has a craving for food",
+      "length": [
+        8
+      ],
+      "number": 27,
+      "x": 8,
+      "y": 15
+    }
+  ],
+  "downClues": [
+    {
+      "clue": "Also includes half-mature fruit",
+      "length": [
+        6
+      ],
+      "number": 1,
+      "x": 1,
+      "y": 1
+    },
+    {
+      "clue": "Myth to support death",
+      "length": [
+        6
+      ],
+      "number": 2,
+      "x": 3,
+      "y": 1
+    },
+    {
+      "clue": "Diamonds with paste in the middle are hard but edible at tea time, say",
+      "length": [
+        4,
+        5
+      ],
+      "number": 3,
+      "x": 5,
+      "y": 1
+    },
+    {
+      "clue": "New Australian navy giving up gold to reach the land of Dracula",
+      "length": [
+        12
+      ],
+      "number": 4,
+      "x": 7,
+      "y": 1
+    },
+    {
+      "clue": "I'm returning to love a new girl",
+      "length": [
+        5
+      ],
+      "number": 6,
+      "x": 11,
+      "y": 1
+    },
+    {
+      "clue": "Use traps around the meadows",
+      "length": [
+        8
+      ],
+      "number": 7,
+      "x": 13,
+      "y": 1
+    },
+    {
+      "clue": "Callous girl gets reduced amount",
+      "length": [
+        8
+      ],
+      "number": 8,
+      "x": 15,
+      "y": 1
+    },
+    {
+      "clue": "Harsh regime uses mounted police to give thanks to kingship",
+      "length": [
+        12
+      ],
+      "number": 11,
+      "x": 9,
+      "y": 4
+    },
+    {
+      "clue": "I-Informer in simple surrounding tells a story",
+      "length": [
+        9
+      ],
+      "number": 15,
+      "x": 11,
+      "y": 7
+    },
+    {
+      "clue": "Mysterious Eastern drunkard cooked rice",
+      "length": [
+        8
+      ],
+      "number": 16,
+      "x": 1,
+      "y": 8
+    },
+    {
+      "clue": "Attendants throw casserole half skywards",
+      "length": [
+        8
+      ],
+      "number": 17,
+      "x": 3,
+      "y": 8
+    },
+    {
+      "clue": "Expedition to see South Africa playing fair",
+      "length": [
+        6
+      ],
+      "number": 19,
+      "x": 13,
+      "y": 10
+    },
+    {
+      "clue": "Interfere to get a military decoration, we hear",
+      "length": [
+        6
+      ],
+      "number": 20,
+      "x": 15,
+      "y": 10
+    },
+    {
+      "clue": "React wildly to provide food",
+      "length": [
+        5
+      ],
+      "number": 22,
+      "x": 5,
+      "y": 11
+    }
+  ],
+  "height": 15,
+  "setter": "Hectence",
+  "setterUrl": "http://www.theguardian.com/profile/hectence",
+  "title": "Quiptic crossword No 90",
+  "width": 15
+}

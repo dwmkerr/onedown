@@ -1,0 +1,269 @@
+{
+  "acrossClues": [
+    {
+      "clue": "Superlatively poor connection to a TV programme",
+      "length": [
+        3,
+        7,
+        4
+      ],
+      "number": 1,
+      "x": 1,
+      "y": 1
+    },
+    {
+      "clue": "Shakes those holding the weapons",
+      "length": [
+        7
+      ],
+      "number": 9,
+      "x": 1,
+      "y": 3
+    },
+    {
+      "clue": "Screen watchdog",
+      "length": [
+        7
+      ],
+      "number": 10,
+      "x": 9,
+      "y": 3
+    },
+    {
+      "clue": "Tiny mites of 10 sat facing backwards",
+      "length": [
+        5
+      ],
+      "number": 11,
+      "x": 1,
+      "y": 5
+    },
+    {
+      "clue": "About an expert at riding the waves getting to come to the top again",
+      "length": [
+        9
+      ],
+      "number": 12,
+      "x": 7,
+      "y": 5
+    },
+    {
+      "clue": "Censor lad mistakenly for being a lion tamer",
+      "length": [
+        9
+      ],
+      "number": 13,
+      "x": 1,
+      "y": 7
+    },
+    {
+      "clue": "Daniel wrote of retreating into the river",
+      "length": [
+        5
+      ],
+      "number": 14,
+      "x": 11,
+      "y": 7
+    },
+    {
+      "clue": "You and I, the Queen's employers",
+      "length": [
+        5
+      ],
+      "number": 15,
+      "x": 1,
+      "y": 9
+    },
+    {
+      "clue": "Is cry a bit unusual, smacking of self-indulgence?",
+      "length": [
+        9
+      ],
+      "number": 17,
+      "x": 7,
+      "y": 9
+    },
+    {
+      "clue": "Disobedient cat in revolt",
+      "length": [
+        9
+      ],
+      "number": 20,
+      "x": 1,
+      "y": 11
+    },
+    {
+      "clue": "Island copper goes round for suspect",
+      "length": [
+        5
+      ],
+      "number": 22,
+      "x": 11,
+      "y": 11
+    },
+    {
+      "clue": "Hesitation seen in exhausted reptile",
+      "length": [
+        7
+      ],
+      "number": 23,
+      "x": 1,
+      "y": 13
+    },
+    {
+      "clue": "Noel, it is thought, is partly one of those who believes in top people",
+      "length": [
+        7
+      ],
+      "number": 24,
+      "x": 9,
+      "y": 13
+    },
+    {
+      "clue": "Head of order found, in error, the soup I'm stirring",
+      "length": [
+        6,
+        8
+      ],
+      "number": 25,
+      "x": 2,
+      "y": 15
+    }
+  ],
+  "downClues": [
+    {
+      "clue": "Drink to Mexican spirit at dawn",
+      "length": [
+        7,
+        7
+      ],
+      "number": 1,
+      "x": 1,
+      "y": 1
+    },
+    {
+      "clue": "Teed off, involving teams that were already there",
+      "length": [
+        7
+      ],
+      "number": 2,
+      "x": 3,
+      "y": 1
+    },
+    {
+      "clue": "Rinse some knitting for the sake of appearances",
+      "length": [
+        9
+      ],
+      "number": 3,
+      "x": 5,
+      "y": 1
+    },
+    {
+      "clue": "Fictional knave with bird",
+      "length": [
+        7
+      ],
+      "number": 4,
+      "x": 7,
+      "y": 1
+    },
+    {
+      "clue": "Hebrew prophet, captured by clandestine army unit, is given some Indian food",
+      "length": [
+        7
+      ],
+      "number": 5,
+      "x": 9,
+      "y": 1
+    },
+    {
+      "clue": "Redhead follows student, one that's friendless",
+      "length": [
+        5
+      ],
+      "number": 6,
+      "x": 11,
+      "y": 1
+    },
+    {
+      "clue": "Get less than 50% and still sound mighty pleased!",
+      "length": [
+        3,
+        4
+      ],
+      "number": 7,
+      "x": 13,
+      "y": 1
+    },
+    {
+      "clue": "Short meeting that was filmed",
+      "length": [
+        5,
+        9
+      ],
+      "number": 8,
+      "x": 15,
+      "y": 2
+    },
+    {
+      "clue": "Tell four to note the order",
+      "length": [
+        9
+      ],
+      "number": 14,
+      "x": 11,
+      "y": 7
+    },
+    {
+      "clue": "Ban imposed to bag more hash",
+      "length": [
+        7
+      ],
+      "number": 16,
+      "x": 3,
+      "y": 9
+    },
+    {
+      "clue": "Faster bird about to rise",
+      "length": [
+        7
+      ],
+      "number": 17,
+      "x": 7,
+      "y": 9
+    },
+    {
+      "clue": "Headgear for group on French water",
+      "length": [
+        7
+      ],
+      "number": 18,
+      "x": 9,
+      "y": 9
+    },
+    {
+      "clue": "Stations to name in one",
+      "length": [
+        7
+      ],
+      "number": 19,
+      "x": 13,
+      "y": 9
+    },
+    {
+      "clue": "Hanger-on finds shelter in front of church",
+      "length": [
+        5
+      ],
+      "number": 21,
+      "x": 5,
+      "y": 11
+    }
+  ],
+  "height": 15,
+  "setter": "Moley",
+  "setterUrl": "http://www.theguardian.com/profile/moley",
+  "title": "Quiptic crossword No 92",
+  "width": 15
+}

@@ -13,6 +13,13 @@
 }
 </style>
 -->
+<style>
+#profilePic {
+  max-height:30px;
+  width:auto;
+  vertical-align:middle;
+}
+</style>
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 
   <div class="container">
@@ -32,7 +39,21 @@
       <div class="collapse navbar-collapse navbar-ex1-collapse">
         <ul class="nav navbar-nav">
           <li><a href="#/crosswords">Crosswords</a></li>
+          <li><a href="#/create">Create</a></li>
         </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+          <li ng-show="!isLoggedIn()"><a href ng-click="login()">Login</a></li>
+          <li ng-show="isLoggedIn()" class="dropdown">
+            <a href class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+              <img id="profilePic" ng-attr-src="{{auth.profile.picture}}">
+              {{auth.profile.name}}<span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href ng-click="logout()">Logout</a></li>
+            </ul>
+          </li>
+      </ul>
       </div>
       </div>
     </nav>

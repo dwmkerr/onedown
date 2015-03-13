@@ -1,0 +1,272 @@
+{
+  "acrossClues": [
+    {
+      "clue": "Conspicuous influence exerted by active troops",
+      "length": [
+        8,
+        5
+      ],
+      "number": 1,
+      "x": 2,
+      "y": 1
+    },
+    {
+      "clue": "A coy sort of miss pointlessly promoting lawlessness",
+      "length": [
+        9
+      ],
+      "number": 10,
+      "x": 1,
+      "y": 3
+    },
+    {
+      "clue": "Colour for cockney isn't soft originally",
+      "length": [
+        5
+      ],
+      "number": 11,
+      "x": 11,
+      "y": 3
+    },
+    {
+      "clue": "Put to rest in Tintern Abbey",
+      "length": [
+        5
+      ],
+      "number": 12,
+      "x": 1,
+      "y": 5
+    },
+    {
+      "clue": "Suffering this, I left with the hall spinning",
+      "length": [
+        3,
+        6
+      ],
+      "number": 13,
+      "x": 7,
+      "y": 5
+    },
+    {
+      "clue": "Publicity about North American student describing a gland",
+      "length": [
+        7
+      ],
+      "number": 14,
+      "x": 1,
+      "y": 7
+    },
+    {
+      "clue": "Artist upset class of rogues",
+      "length": [
+        7
+      ],
+      "number": 16,
+      "x": 9,
+      "y": 7
+    },
+    {
+      "clue": "Wrest butane, for example, from riot controller?",
+      "length": [
+        4,
+        3
+      ],
+      "number": 18,
+      "x": 1,
+      "y": 9
+    },
+    {
+      "clue": "Firm to get under way with a flower show",
+      "length": [
+        7
+      ],
+      "number": 20,
+      "x": 9,
+      "y": 9
+    },
+    {
+      "clue": "Visibility is less, but including a prospect of being maintained",
+      "length": [
+        9
+      ],
+      "number": 21,
+      "x": 1,
+      "y": 11
+    },
+    {
+      "clue": "Ease pressure and put the Spanish back",
+      "length": [
+        5
+      ],
+      "number": 23,
+      "x": 11,
+      "y": 11
+    },
+    {
+      "clue": "Stumble? Third fielder? Rubbish!",
+      "length": [
+        5
+      ],
+      "number": 24,
+      "x": 1,
+      "y": 13
+    },
+    {
+      "clue": "Silly old stooge, one of a pair, in baggy trousers",
+      "length": [
+        9
+      ],
+      "number": 25,
+      "x": 7,
+      "y": 13
+    },
+    {
+      "clue": "Test, touch each composition and get to the point",
+      "length": [
+        3,
+        2,
+        3,
+        5
+      ],
+      "number": 26,
+      "x": 2,
+      "y": 15
+    }
+  ],
+  "downClues": [
+    {
+      "clue": "Vic left the Spice Girl after tart turned up in restaurant",
+      "length": [
+        9
+      ],
+      "number": 2,
+      "x": 3,
+      "y": 1
+    },
+    {
+      "clue": "Provoke fashionable hound",
+      "length": [
+        5
+      ],
+      "number": 3,
+      "x": 5,
+      "y": 1
+    },
+    {
+      "clue": "First capital?",
+      "length": [
+        7
+      ],
+      "number": 4,
+      "x": 7,
+      "y": 1
+    },
+    {
+      "clue": "One speculating how to get better",
+      "length": [
+        7
+      ],
+      "number": 5,
+      "x": 9,
+      "y": 1
+    },
+    {
+      "clue": "Work with the media or a slave-driver",
+      "length": [
+        9
+      ],
+      "number": 6,
+      "x": 11,
+      "y": 1
+    },
+    {
+      "clue": "Cool, cool beginner on the up and up",
+      "length": [
+        5
+      ],
+      "number": 7,
+      "x": 13,
+      "y": 1
+    },
+    {
+      "clue": "Deadly kind of broadcasting?",
+      "length": [
+        13
+      ],
+      "number": 8,
+      "x": 1,
+      "y": 2
+    },
+    {
+      "clue": "The point where the action is",
+      "length": [
+        2,
+        3,
+        5,
+        3
+      ],
+      "number": 9,
+      "x": 15,
+      "y": 2
+    },
+    {
+      "clue": "Indifferent to broken egg in Lent",
+      "length": [
+        9
+      ],
+      "number": 15,
+      "x": 5,
+      "y": 7
+    },
+    {
+      "clue": "Awful insult a boy mostly suffered when washing",
+      "length": [
+        9
+      ],
+      "number": 17,
+      "x": 13,
+      "y": 7
+    },
+    {
+      "clue": "Clipping trim animal",
+      "length": [
+        7
+      ],
+      "number": 19,
+      "x": 7,
+      "y": 9
+    },
+    {
+      "clue": "Money in cane container for hot spice",
+      "length": [
+        7
+      ],
+      "number": 20,
+      "x": 9,
+      "y": 9
+    },
+    {
+      "clue": "A French god's valediction",
+      "length": [
+        5
+      ],
+      "number": 22,
+      "x": 3,
+      "y": 11
+    },
+    {
+      "clue": "Tether student on drug to a tree",
+      "length": [
+        5
+      ],
+      "number": 23,
+      "x": 11,
+      "y": 11
+    }
+  ],
+  "height": 15,
+  "setter": "Moley",
+  "setterUrl": "http://www.theguardian.com/profile/moley",
+  "title": "Quiptic crossword No 89",
+  "width": 15
+}

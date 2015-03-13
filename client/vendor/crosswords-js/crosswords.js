@@ -102,7 +102,7 @@ var CrosswordsJS = (function(CrosswordsJS, window, document) {
         if(clueModel.answer) {
 
           //  ...but only if it is not different to an existing answer.
-          if(cell.answer !== undefined && cell.answer !== clueModel.answer[letter]) {
+          if(cell.answer !== undefined && cell.answer !== " " && cell.answer !== clueModel.answer[letter]) {
             throw new Error("Clue " + clueModel.code + " answer at (" + (x + 1) + ", " + (y + 1) + ") is not coherent with previous clue (" + cell.acrossClue.code + ") answer.");
           }
           cell.answer = clueModel.answer[letter];
@@ -283,6 +283,7 @@ var CrosswordsJS = (function(CrosswordsJS, window, document) {
     //  Light cells also need an input.
     var inputElement = document.createElement('input');
     inputElement.maxLength = 1;
+    if(cell.answer) inputElement.value = cell.answer;
     cellElement.appendChild(inputElement);
 
     //  We may need to add a clue label.
@@ -376,7 +377,7 @@ var CrosswordsJS = (function(CrosswordsJS, window, document) {
             //  Select the new clue.
             self.currentClue = newClue;
             self._updateDOM();
-            cellMap.getCellElement(newClue.cells[0]).querySelector('input').focus({internal: true});
+            cellMap.getCellElement(newClue.cells[0]).querySelector('input').focus();
             break;
           }
         }
@@ -418,11 +419,30 @@ var CrosswordsJS = (function(CrosswordsJS, window, document) {
       //  Blat current content.
       event.target.value = "";
 
-      //  Move to the next cell in the clue.
+      //  Get cell data.
       var cellElement = event.target.parentNode;
       var cell = cellMap.getCell(cellElement);
       var crossword = cell.crossword;
       var clue = self.currentClue;
+
+      //  Sets the letter of a string.
+      function setLetter(source, index, newLetter) {
+        var sourceNormalised = source === null || source === undefined ? "" : source;
+        var result = "";
+        while(sourceNormalised.length <= index) sourceNormalised = sourceNormalised + " ";
+        var seek = Math.max(index, sourceNormalised.length);
+        for(var i=0;i<seek;i++) {
+          result += i == index ? newLetter : sourceNormalised[i];
+        }
+        return result;
+      }
+
+      //  We need to update the answer.
+      var key = String.fromCharCode(event.keyCode);
+      if(cell.acrossClue) cell.acrossClue.answer = setLetter(cell.acrossClue.answer, cell.acrossClueLetterIndex, key);
+      if(cell.downClue) cell.downClue.answer = setLetter(cell.downClue.answer, cell.downClueLetterIndex, key);
+
+      //  Move to the next cell in the clue.
       var currentIndex = cell.acrossClue === clue ? cell.acrossClueLetterIndex : cell.downClueLetterIndex;
       var nextIndex = currentIndex + 1;
       if(nextIndex < clue.cells.length) {

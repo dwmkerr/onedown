@@ -8,6 +8,8 @@ var opn = require('opn');
 gulp.task('vendor', function() {
   gulp.src('./bower_components/angular/angular.*')
     .pipe(gulp.dest('./client/vendor/angular'));
+  gulp.src('./bower_components/angular-cookies/angular-cookies.*')
+    .pipe(gulp.dest('./client/vendor/angular-cookies'));
   gulp.src('./bower_components/angular-route/angular-route.*')
     .pipe(gulp.dest('./client/vendor/angular-route'));
   gulp.src('./bower_components/crosswords-js/dist/*.*')

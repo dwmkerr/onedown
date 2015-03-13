@@ -1,6 +1,7 @@
 var path = require('path');
 var express = require('express');
 var connectLivereload = require('connect-livereload');
+var bodyParser = require('body-parser');
 
 //  Load the config.
 var config = require('./config/config.js');
@@ -20,11 +21,16 @@ app.useDebug = function(middleware) {
   }
 };
 
+// We are going to protect /api routes with JWT
+
 //  TODO: connect only in dev mode.
 app.useDebug(connectLivereload());
 app.use(express.static(path.join(__dirname, '../client')));
 
-//  Setup all API routes.
+
+
+//  API routes use the body parser.
+app.use(bodyParser.json());
 require('./routes/routes.js')(app);
 
 app.listen(config.port);

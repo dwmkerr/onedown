@@ -1,6 +1,31 @@
-<h3>Crosswords</h3>
+<style>
+  .crosswordsContainer {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .crossword {
+    width: 240px;
+    height: 240px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center; /* align horizontal */
+  }
+  .crosswordPreview {
+    width: 150px;
+    height: 150px;
+  }
+</style>
 
-<div ng-repeat="crossword in crosswords">
-<h5><a ng-href="#/crosswords/{{crossword._id}}">{{crossword.title}}</a></h5>
-<hr ng-show="!$last" />
+<div id="crosswordsView">
+
+  <div class="crosswordsContainer">
+
+    <div class="crossword" ng-repeat="crossword in crosswords">
+      <div><h4><a ng-href="#/crosswords/{{crossword._id}}">{{crossword.title}}</a></h4></div>
+      <div style="display: block"><img class="crosswordPreview img-thumbnail"></div>
+      <div><p>By <em>{{crossword.setter}}</em></p></div>
+    </div>
+
+  </div>
+
 </div>

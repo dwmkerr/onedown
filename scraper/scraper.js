@@ -22,7 +22,7 @@ var dumpFolder = path.join(__dirname, process.argv[3]);
 
 phantom.create(function(ph) {
   return ph.createPage(function(page) {
-    return page.open("http://www.theguardian.com/crosswords/quiptic/93", function(status) {
+    return page.open(crosswordUrl, function(status) {
       console.log("Loaded Page: ", status);
       return page.evaluate((function() {
 

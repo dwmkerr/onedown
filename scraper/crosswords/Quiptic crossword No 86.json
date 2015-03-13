@@ -1,0 +1,275 @@
+{
+  "acrossClues": [
+    {
+      "clue": "Shows in the cutting room?",
+      "length": [
+        7
+      ],
+      "number": 1,
+      "x": 1,
+      "y": 1
+    },
+    {
+      "clue": "Die cast before a friend, preferably",
+      "length": [
+        7
+      ],
+      "number": 5,
+      "x": 9,
+      "y": 1
+    },
+    {
+      "clue": "Frighten pointlessly to make a mark",
+      "length": [
+        4
+      ],
+      "number": 10,
+      "x": 1,
+      "y": 3
+    },
+    {
+      "clue": "Having coloured material in mind",
+      "length": [
+        4,
+        6
+      ],
+      "number": 11,
+      "x": 6,
+      "y": 3
+    },
+    {
+      "clue": "Fuss after Kipling's boy returned to the operetta",
+      "length": [
+        6
+      ],
+      "number": 12,
+      "x": 1,
+      "y": 5
+    },
+    {
+      "clue": "Train Leo, possibly in the eastern way",
+      "length": [
+        8
+      ],
+      "number": 13,
+      "x": 8,
+      "y": 5
+    },
+    {
+      "clue": "Mythical Greek or Turkish commander initially getting many experienced men, not only novices",
+      "length": [
+        9
+      ],
+      "number": 14,
+      "x": 1,
+      "y": 7
+    },
+    {
+      "clue": "Animal in a police car?",
+      "length": [
+        5
+      ],
+      "number": 16,
+      "x": 11,
+      "y": 7
+    },
+    {
+      "clue": "A barrier of stone",
+      "length": [
+        5
+      ],
+      "number": 17,
+      "x": 1,
+      "y": 9
+    },
+    {
+      "clue": "Investigate creature in the open",
+      "length": [
+        6,
+        3
+      ],
+      "number": 19,
+      "x": 7,
+      "y": 9
+    },
+    {
+      "clue": "Happiness is having, they say, you for one midday",
+      "length": [
+        8
+      ],
+      "number": 23,
+      "x": 1,
+      "y": 11
+    },
+    {
+      "clue": "Trick instrument",
+      "length": [
+        6
+      ],
+      "number": 24,
+      "x": 10,
+      "y": 11
+    },
+    {
+      "clue": "Receipt I lost on account with the French vessel",
+      "length": [
+        10
+      ],
+      "number": 26,
+      "x": 1,
+      "y": 13
+    },
+    {
+      "clue": "Pluck one out for Robin Goodfellow",
+      "length": [
+        4
+      ],
+      "number": 27,
+      "x": 12,
+      "y": 13
+    },
+    {
+      "clue": "Perhaps bees did for the doctor's manner",
+      "length": [
+        7
+      ],
+      "number": 28,
+      "x": 1,
+      "y": 15
+    },
+    {
+      "clue": "A wink of sleep",
+      "length": [
+        7
+      ],
+      "number": 29,
+      "x": 9,
+      "y": 15
+    }
+  ],
+  "downClues": [
+    {
+      "clue": "Writing poorly, it's said, about a cough",
+      "length": [
+        7
+      ],
+      "number": 2,
+      "x": 2,
+      "y": 1
+    },
+    {
+      "clue": "A mixed rota for the vessel",
+      "length": [
+        5
+      ],
+      "number": 3,
+      "x": 4,
+      "y": 1
+    },
+    {
+      "clue": "Burrower that may grow freely in sheep",
+      "length": [
+        7
+      ],
+      "number": 4,
+      "x": 6,
+      "y": 1
+    },
+    {
+      "clue": "Cyber-address for one's own area",
+      "length": [
+        6
+      ],
+      "number": 6,
+      "x": 10,
+      "y": 1
+    },
+    {
+      "clue": "Look after worker, a maid maybe",
+      "length": [
+        9
+      ],
+      "number": 7,
+      "x": 12,
+      "y": 1
+    },
+    {
+      "clue": "Shelter protégé? from the wind",
+      "length": [
+        7
+      ],
+      "number": 8,
+      "x": 14,
+      "y": 1
+    },
+    {
+      "clue": "No understanding of a policing policy",
+      "length": [
+        4,
+        9
+      ],
+      "number": 9,
+      "x": 8,
+      "y": 2
+    },
+    {
+      "clue": "Lucifer gets a smaller amount, but is still without equal",
+      "length": [
+        9
+      ],
+      "number": 15,
+      "x": 4,
+      "y": 7
+    },
+    {
+      "clue": "Rue grey development in yellow cheese",
+      "length": [
+        7
+      ],
+      "number": 18,
+      "x": 2,
+      "y": 9
+    },
+    {
+      "clue": "Concerning new makeover",
+      "length": [
+        7
+      ],
+      "number": 20,
+      "x": 10,
+      "y": 9
+    },
+    {
+      "clue": "United Nations accident last July is inauspicious",
+      "length": [
+        7
+      ],
+      "number": 21,
+      "x": 14,
+      "y": 9
+    },
+    {
+      "clue": "Great sound: 500 being shredded",
+      "length": [
+        6
+      ],
+      "number": 22,
+      "x": 6,
+      "y": 10
+    },
+    {
+      "clue": "Remove container from warehouse?",
+      "length": [
+        5
+      ],
+      "number": 25,
+      "x": 12,
+      "y": 11
+    }
+  ],
+  "height": 15,
+  "setter": "Moley",
+  "setterUrl": "http://www.theguardian.com/profile/moley",
+  "title": "Quiptic crossword No 86",
+  "width": 15
+}

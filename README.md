@@ -5,6 +5,11 @@ Star clues
 
 ## Local Development
 
+The following data must be exported to environment variables:
+
+* `ONEDOWN_AUTH0_SECRET`: 
+* `ONEDOWN_AUTH0_AUDIENCE`:
+
 The following components should be installed on a local development machine:
 
  * NodeJS & NPM
@@ -23,3 +28,11 @@ Now lint, test and livereload as you develop with:
 ```bash
 gulp
 ```
+
+Consider
+
+ * Offline dev (no auth0)
+
+Write Up
+
+ * REST modelling

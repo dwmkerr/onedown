@@ -1,0 +1,270 @@
+{
+  "acrossClues": [
+    {
+      "clue": "Environmentalist identifies the knack of growing plants",
+      "length": [
+        5,
+        7
+      ],
+      "number": 1,
+      "x": 3,
+      "y": 1
+    },
+    {
+      "clue": "Lowly canon's measure to help the needy",
+      "length": [
+        4,
+        3
+      ],
+      "number": 8,
+      "x": 1,
+      "y": 3
+    },
+    {
+      "clue": "View duck taking wing",
+      "length": [
+        7
+      ],
+      "number": 9,
+      "x": 9,
+      "y": 3
+    },
+    {
+      "clue": "Part of Russia, southern Spain and Portugal",
+      "length": [
+        7
+      ],
+      "number": 11,
+      "x": 1,
+      "y": 5
+    },
+    {
+      "clue": "Smooth lawyers for offshore bank",
+      "length": [
+        7
+      ],
+      "number": 12,
+      "x": 9,
+      "y": 5
+    },
+    {
+      "clue": "Bird dog, losing its head",
+      "length": [
+        5
+      ],
+      "number": 13,
+      "x": 1,
+      "y": 7
+    },
+    {
+      "clue": "Shoot is blooming and burgeoning",
+      "length": [
+        9
+      ],
+      "number": 14,
+      "x": 7,
+      "y": 7
+    },
+    {
+      "clue": "Approaches unhappy voter with dubious ruse",
+      "length": [
+        9
+      ],
+      "number": 16,
+      "x": 1,
+      "y": 9
+    },
+    {
+      "clue": "Effluent from Iowa steelworks",
+      "length": [
+        5
+      ],
+      "number": 19,
+      "x": 11,
+      "y": 9
+    },
+    {
+      "clue": "Land planted with fruit trees or beet",
+      "length": [
+        7
+      ],
+      "number": 21,
+      "x": 1,
+      "y": 11
+    },
+    {
+      "clue": "Doctor attends operation; on strike, he refuses to participate further",
+      "length": [
+        4,
+        3
+      ],
+      "number": 23,
+      "x": 9,
+      "y": 11
+    },
+    {
+      "clue": "Gay turned round very quietly in Barking",
+      "length": [
+        7
+      ],
+      "number": 24,
+      "x": 1,
+      "y": 13
+    },
+    {
+      "clue": "One starts to notice Cherokee Indian with singular gold tooth",
+      "length": [
+        7
+      ],
+      "number": 25,
+      "x": 9,
+      "y": 13
+    },
+    {
+      "clue": "Lunatic prattled name of French region",
+      "length": [
+        12
+      ],
+      "number": 26,
+      "x": 2,
+      "y": 15
+    }
+  ],
+  "downClues": [
+    {
+      "clue": "Arise and get something to grow tomatoes in",
+      "length": [
+        4,
+        3
+      ],
+      "number": 1,
+      "x": 3,
+      "y": 1
+    },
+    {
+      "clue": "Blow up corrupt general",
+      "length": [
+        7
+      ],
+      "number": 2,
+      "x": 5,
+      "y": 1
+    },
+    {
+      "clue": "Blair's party is unfamiliar with the workers",
+      "length": [
+        3,
+        6
+      ],
+      "number": 3,
+      "x": 7,
+      "y": 1
+    },
+    {
+      "clue": "Ron is about to produce golf clubs",
+      "length": [
+        5
+      ],
+      "number": 4,
+      "x": 9,
+      "y": 1
+    },
+    {
+      "clue": "Old king's secret? He smiles a lot!",
+      "length": [
+        7
+      ],
+      "number": 5,
+      "x": 11,
+      "y": 1
+    },
+    {
+      "clue": "Cook one a brown trout",
+      "length": [
+        7
+      ],
+      "number": 6,
+      "x": 13,
+      "y": 1
+    },
+    {
+      "clue": "Theory of knowledge is - gee! - simply too complicated!",
+      "length": [
+        12
+      ],
+      "number": 7,
+      "x": 1,
+      "y": 2
+    },
+    {
+      "clue": "Cuckoo, wren, tern - shot going towards the Manchester area?",
+      "length": [
+        5,
+        7
+      ],
+      "number": 10,
+      "x": 15,
+      "y": 3
+    },
+    {
+      "clue": "Pilot and chauffeur try out new car",
+      "length": [
+        4,
+        5
+      ],
+      "number": 15,
+      "x": 9,
+      "y": 7
+    },
+    {
+      "clue": "Fugitive in disguise reaches Cape Endeavour",
+      "length": [
+        7
+      ],
+      "number": 17,
+      "x": 3,
+      "y": 9
+    },
+    {
+      "clue": "Doctor, artisan and old empress",
+      "length": [
+        7
+      ],
+      "number": 18,
+      "x": 5,
+      "y": 9
+    },
+    {
+      "clue": "Picture composed of trees and a waterway",
+      "length": [
+        7
+      ],
+      "number": 19,
+      "x": 11,
+      "y": 9
+    },
+    {
+      "clue": "Paul's so wrong regarding marriage",
+      "length": [
+        7
+      ],
+      "number": 20,
+      "x": 13,
+      "y": 9
+    },
+    {
+      "clue": "Figure? Mine has sex appeal!",
+      "length": [
+        5
+      ],
+      "number": 22,
+      "x": 7,
+      "y": 11
+    }
+  ],
+  "height": 15,
+  "setter": "Arachne",
+  "setterUrl": "http://www.theguardian.com/profile/arachne",
+  "title": "Quiptic crossword No 91",
+  "width": 15
+}
