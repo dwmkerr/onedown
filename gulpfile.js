@@ -1,8 +1,31 @@
 var gulp = require('gulp');
 var jshint = require('gulp-jshint');
 var stylish = require('jshint-stylish');
+var uglify = require('gulp-uglify');
+var rename = require('gulp-rename');
+var sourcemaps = require('gulp-sourcemaps');
+var concat = require('gulp-concat');
+var ngAnnotate = require('gulp-ng-annotate');
 var path = require('path');
 var opn = require('opn');
+
+//  Hints and builds all JavaScript.
+gulp.task('js', function() {
+
+  return gulp.src(['./client/app/**/*.js'])
+    .pipe(jshint())
+    .pipe(jshint.reporter(stylish))
+    .pipe(jshint.reporter('fail'))
+    .pipe(sourcemaps.init({loadMaps: true}))
+      .pipe(concat('app.js'))
+      .pipe(gulp.dest('./client/dist'))
+      .pipe(ngAnnotate())
+      .pipe(uglify())
+      .pipe(rename({suffix: '.min'}))
+    .pipe(sourcemaps.write('./'))
+    .pipe(gulp.dest('./client/dist/'));
+
+});
 
 //  Copies vendor files over.
 gulp.task('vendor', function() {
@@ -18,15 +41,6 @@ gulp.task('vendor', function() {
     .pipe(gulp.dest('./client/vendor/bootstrap'));
   gulp.src('./bower_components/jquery/dist/**/*.*')
     .pipe(gulp.dest('./client/vendor/jquery'));
-});
-
-//  Hints all of the javascript.
-gulp.task('jshint', function() {
-
-  return gulp.src(['src/crosswords.js', 'test/**/*.spec.js'])
-    .pipe(jshint())
-    .pipe(jshint.reporter(stylish));
-
 });
 
 //  Starts the livereload server.
@@ -61,8 +75,11 @@ gulp.task('watch', function() {
   // gulp.watch(['src/**.js'], ['jshint', 'js']);
   // gulp.watch(['src/**.less'], ['css']);
 
+  //  Rebuild on client js changes.
+  gulp.watch(['client/app/**/*.js'], ['js']);
+
   //  Reload on client changes.
-  gulp.watch(['client/**/*.*'], notifyLiveReload);
+  gulp.watch(['client/**/*.html', 'client/dist/**/*.*'], notifyLiveReload);
 
 });
 

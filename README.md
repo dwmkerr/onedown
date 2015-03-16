@@ -21,14 +21,22 @@ The following components should be installed on a local development machine:
 Run the server with:
 
 ```bash
-cd server
-nodemon --debug ./server.js
+node-inspector
+nodemon --debug --watch ./server ./app.js
 ```
 
 Now lint, test and livereload as you develop with:
 
 ```bash
 gulp
+```
+
+## Production
+
+Run the entire application with:
+
+```bash
+npm start
 ```
 
 Consider

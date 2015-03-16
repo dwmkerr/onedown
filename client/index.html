@@ -24,15 +24,8 @@
     <script src="vendor/angular-route/angular-route.min.js"></script>
     <script src="vendor/crosswords-js/crosswords.js"></script>
 
-    <script src="app/app.js"></script>
-    <script src="app/pages/home/homecontroller.js"></script>
-    <script src="app/pages/create/createcontroller.js"></script>
-    <script src="app/pages/crosswords/crosswordscontroller.js"></script>
-    <script src="app/pages/crossword/crosswordcontroller.js"></script>
-    <script src="app/components/od-crossword/od-crossword.js"></script>
-    <script src="app/services/identityservice.js"></script>
-    <script src="app/menu/od-menu.js"></script>
-
+    <script src="dist/app.min.js"></script>
+    
     <!-- Auth0 -->
     <script src="//cdn.auth0.com/js/lock-7.1.min.js"></script>
     <script type="text/javascript" src="//cdn.rawgit.com/auth0/angular-storage/master/dist/angular-storage.js"></script>
@@ -40,11 +33,16 @@
     <script src="//cdn.auth0.com/w2/auth0-angular-4.js"></script>
 
     <style>
-        body {
+    body {
       padding-top: 50px;
     }
-    .starter-template {
+
+    .pad {
       padding: 40px 15px;
+
+    }
+
+    .starter-template {
       text-align: center;
     }
 
@@ -59,8 +57,9 @@
 
     <od-menu></od-menu>
 
-    <div class="container">
+    <div class="container pad">
 
+      <od-notifications></od-notifications>
       <ng-view></ng-view>
 
     </div>

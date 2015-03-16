@@ -11,9 +11,11 @@ var app = angular.module('app', ['ngRoute', 'auth0', 'angular-storage', 'angular
         templateUrl: 'app/pages/crosswords/crosswords.html',
         controller: 'CrosswordsController',
         resolve: {
-          crosswords: function($http) {
+          crosswords: function($http, ErrorService) {
             return $http.get('api/crosswords').then(function(response) { 
               return response.data; 
+            }, function(err) {
+              ErrorService.error('Sorry', 'There was a problem loading the crosswords.');
             });
           }
         }
@@ -25,6 +27,8 @@ var app = angular.module('app', ['ngRoute', 'auth0', 'angular-storage', 'angular
           crossword: function($route, $http) {
             return $http.get('api/crosswords/' + $route.current.params.crosswordId).then(function(response) { 
               return response.data; 
+            }, function(err) {
+              ErrorService.error('Sorry', 'There was a problem loading the crossword.');
             });
           }
         }
