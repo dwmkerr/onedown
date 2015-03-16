@@ -7,5 +7,10 @@ module.exports = {
   auth0: {
     secret: process.env.ONEDOWN_AUTH0_SECRET,
     audience: process.env.ONEDOWN_AUTH0_AUDIENCE
+  },
+  logging: {
+    logentries: {
+      token: process.env.ONEDOWN_LOGENTRIES_TOKEN
+    }
   }
 };
