@@ -32,22 +32,22 @@ var logger = new (winston.Logger)({
 });
 winston.addColors(colours);
 
+//  Log unhandled exceptions.
+process.on('uncaughtException', function (err) {
+  logger.error(err.stack, err);
+  process.exit(1);
+});
+
 //  If config has a logentries token, use it.
 if(config.has('logging.logentries.token')) {
   
   //  Use logentries.
-  var log = logentries.logger({
+  logentries.logger({
     token: config.get('logging.logentries.token')
   }).winston(winston);
 
-  log.info('Logentries logging configured...');
+  logger.info('Logentries logging configured...');
 }
-
-//  Log unhandled exceptions.
-process.on('uncaughtException', function (err) {
-  log.error(err.stack, err);
-  process.exit(1);
-});
 
 //  Configure the logger stream to support other mechanisms writing to our log.
 logger.stream = {
