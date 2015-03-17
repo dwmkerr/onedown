@@ -57,7 +57,6 @@ var app = angular.module('app', ['ngRoute', 'auth0', 'angular-storage', 'angular
     }];
 
     $httpProvider.interceptors.push('jwtInterceptor');
-    // ...
   })
   .run(function(auth) {
     // This hooks al auth events to check everything as soon as the app starts

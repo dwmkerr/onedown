@@ -1,4 +1,4 @@
-angular.module('app').controller('CrosswordController', function($scope, $q, $http, auth, IdentityService, crossword) {
+angular.module('app').controller('CrosswordController', function($scope, $q, $http, auth, IdentityService, ErrorService, crossword) {
 
 
   $scope.title = crossword.title;
@@ -54,8 +54,8 @@ angular.module('app').controller('CrosswordController', function($scope, $q, $ht
       }
       $http.post('api/crosswords/' + crossword._id + '/solution', solution).then(function() {
 
-      }, function() {
-        //  TODO error.
+      }, function(err) {
+        ErrorService('Sorry', 'There was a problem saving your answers.');
       });
 
     });
