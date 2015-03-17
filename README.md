@@ -5,10 +5,10 @@ Star clues
 
 ## Local Development
 
-The following data must be exported to environment variables:
+The following data can be exported to environment variables:
 
-* `ONEDOWN_AUTH0_SECRET`: The Auth0 development app secret.
-* `ONEDOWN_AUTH0_AUDIENCE`: The Auth0 development app audience.
+* `ONEDOWN_AUTH0_SECRET`: Required. The Auth0 development app secret.
+* `ONEDOWN_LOGENTRIES_TOKEN`: Optional. A logentries token.
 
 Use the files in `scripts\environment` as a template to add these values to the environment.
 

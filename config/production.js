@@ -6,7 +6,7 @@ module.exports = {
   },
   auth0: {
     secret: process.env.ONEDOWN_AUTH0_SECRET,
-    audience: process.env.ONEDOWN_AUTH0_AUDIENCE
+    audience: 'oWeXhqDS5VLh8asTvNUEqKFA6wIbGIsJ'
   },
   logging: {
     logentries: {

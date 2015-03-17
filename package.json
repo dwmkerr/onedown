@@ -31,7 +31,8 @@
     "jshint-stylish": "^1.0.1",
     "opn": "^1.0.1",
     "phantomjs": "^1.9.16",
-    "vinyl-transform": "^1.0.0"
+    "vinyl-transform": "^1.0.0",
+    "gulp-concat": "^2.5.2"
   },
   "dependencies": {
     "body-parser": "^1.12.0",
