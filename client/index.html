@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <title>One Down</title>
 
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="vendor/materialize/css/materialize.min.css" media="screen,projection"/>
     <link href="vendor/crosswords-js/crosswords.css" rel="stylesheet">
     <link href="css/onedown.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -33,21 +33,13 @@
     <script src="//cdn.auth0.com/w2/auth0-angular-4.js"></script>
 
     <style>
-    body {
-      padding-top: 50px;
-    }
-
-    .pad {
-      padding: 40px 15px;
-
-    }
 
     .starter-template {
       text-align: center;
     }
 
     h1, h2, h3, h4, h5, h6, div {
-      font-family: 'Vollkorn', serif;
+    /*  font-family: 'Vollkorn', serif;*/
     }
     </style>
 
@@ -57,13 +49,10 @@
 
     <od-menu></od-menu>
 
-    <div class="container pad">
+    <od-alerts></od-alerts>
+    <ng-view></ng-view>
 
-      <od-notifications></od-notifications>
-      <ng-view></ng-view>
-
-    </div>
-
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
   </body>
+  
+  <script type="text/javascript" src="vendor/materialze/js/materialize.min.js"></script>
 </html>

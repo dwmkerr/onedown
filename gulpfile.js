@@ -27,6 +27,11 @@ gulp.task('js', function() {
 
 });
 
+//  Builds all of the css.
+gulp.task('css', function() {
+
+});
+
 //  Copies vendor files over.
 gulp.task('vendor', function() {
   gulp.src('./bower_components/angular/angular.*')
@@ -41,6 +46,8 @@ gulp.task('vendor', function() {
     .pipe(gulp.dest('./client/vendor/bootstrap'));
   gulp.src('./bower_components/jquery/dist/**/*.*')
     .pipe(gulp.dest('./client/vendor/jquery'));
+  gulp.src('./bower_components/materialize/dist/**/*.*')
+    .pipe(gulp.dest('./client/vendor/materialize'));
 });
 
 //  Starts the livereload server.

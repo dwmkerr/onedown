@@ -291,9 +291,16 @@
       "y": 11
     }
   ],
+  "hasAnswer": false,
   "height": 15,
-  "setter": "Guy",
-  "setterUrl": "http://www.theguardian.com/profile/guy",
+  "setter": {
+    "name": "Guy",
+    "url": "http://www.theguardian.com/profile/guy"
+  },
+  "source": {
+    "name": "The Guardian",
+    "url": "http://www.theguardian.com/crosswords/quiptic/88"
+  },
   "title": "Quiptic crossword No 88",
   "width": 15
 }

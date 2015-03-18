@@ -1,31 +1,74 @@
 <style>
-  .crosswordsContainer {
+  #crosswordsContainer {
     display: flex;
     flex-flow: row wrap;
   }
-  .crossword {
+  .crosswordOLD {
     width: 240px;
     height: 240px;
     display: flex;
     flex-flow: column wrap;
     align-items: center; /* align horizontal */
+  
   }
+
+
+  .crossword {
+    /*width: 240px;
+    height: 240px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;*/
+  }
+
   .crosswordPreview {
     width: 150px;
     height: 150px;
   }
+  .search {
+    font-size: 18px;
+
+  }
+  .dynamic {
+    text-decoration: underline;
+    font-style: italic;
+  }
 </style>
+
+<div class="container">
 
 <div id="crosswordsView">
 
-  <div class="crosswordsContainer">
+  <section>
+    <p class="search">Show me <span class="dynamic">all</span> crosswords by <span class="dynamic">anyone</span>.</p>
+  </section>
+<!-- 
+  <section id="crosswordsContainer">
 
     <div class="crossword" ng-repeat="crossword in crosswords">
       <div><h4><a ng-href="#/crosswords/{{crossword._id}}">{{crossword.title}}</a></h4></div>
       <div style="display: block"><img class="crosswordPreview img-thumbnail" src="img/crossword.png"></div>
-      <div><p>By <em>{{crossword.setter}}</em></p></div>
+      <div><p>By <em>{{crossword.setter.name}}</em></p></div>
     </div>
 
-  </div>
+  </section> -->
+
+
+  <section id="crosswordsContainer">
+
+    <div class="crossword" ng-repeat="crossword in crosswords">
+
+    <div class="card ">
+            <div class="card-content">
+              <p><a ng-href="#/crosswords/{{crossword._id}}">{{crossword.title}}</span></a></p>
+              <div><img class="crosswordPreview img-thumbnail" src="img/crossword.png"></div>
+              <p>Set by <em>{{crossword.setter.name}}</em></p>
+            </div>
+          </div>
+
+    </div>
+
+  </section>
+</div>
 
 </div>

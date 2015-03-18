@@ -1,43 +1,67 @@
 <style>
-    #crosswordView h1{
+    #crosswordView{
+    }
+
+    #titleArea {
+      padding-bottom: 14px;
       text-align: center;
     }
+
+    #crosswordArea {
+      padding-bottom: 24px;
+    }
+
+    #commandArea {
+      text-align:center
+    }
+
     .selected {
       font-weight: bold;
     }
     .clueBox {
       overflow-y: scroll;
     }
+
 </style>
 
 <div id="crosswordView">
 
-  <h1>{{title}} <small><em>by {{setter}}</em></small></h1>
+  <div class="container">
+    <section id="titleArea">
+      <h3>{{title}} <small><em>by {{setter.name}}</em></small></h3>
+    </section>    
+  </div>
 
-  <div class="row">
-    <div class="col-md-6">
-      <div class="pull-right">
-        <od-crossword id="xword" crossword="crossword" selected-clue="selectedClue" crossword-height="crosswordHeight"></od-crossword>
+  <div class="container">
+
+  <section id="crosswordArea">
+    <div class="row">
+      <div class="col m12 l6 right-align">
+          <od-crossword id="xword" crossword="crossword" selected-clue="selectedClue" crossword-height="crosswordHeight"></od-crossword>
+      </div>
+      <div class="col m0 l6">
+        <div class="clueBox hide-on-med-and-down" ng-style="{'max-height': crosswordHeight}">
+          <h4>Across</h4>
+          <div ng-repeat="clue in acrossClues" ng-class="{selected: isSelected(clue)}">
+            {{clue.number}}. {{clue.clue}}
+          </div>
+          <h4>Down</h4>
+          <div ng-repeat="clue in downClues" ng-class="{selected: isSelected(clue)}">
+            {{clue.number}}. {{clue.clue}}
+          </div>
+        </div>
       </div>
     </div>
-    <div class="col-md-6">
-      <div class="clueBox" ng-style="{'max-height': crosswordHeight}">
-        <h4>Across</h4>
-        <div ng-repeat="clue in acrossClues" ng-class="{selected: isSelected(clue)}">
-          {{clue.number}}. {{clue.clue}}
-        </div>
-        <h4>Down</h4>
-        <div ng-repeat="clue in downClues" ng-class="{selected: isSelected(clue)}">
-          {{clue.number}}. {{clue.clue}}
-        </div>
-      </div>
+  </section>
+
+  </div>
+  
+  <div id="commandArea">
+    <div class="row">
+    <div class="col-md-12">
+    <div class="waves-effect waves-light btn" ng-click="save()">Save</div>
+    <div class="waves-effect waves-light btn" ng-click="check()">Check</div>
+    </div>
     </div>
   </div>
-
-  <div class="row">
-  <div class="col-md-12">
-  <div class="btn btn-default" ng-click="save()">Save</div>
-  </div>
-  </div>
-
 </div>

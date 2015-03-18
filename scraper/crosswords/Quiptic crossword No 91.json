@@ -262,9 +262,16 @@
       "y": 11
     }
   ],
+  "hasAnswer": false,
   "height": 15,
-  "setter": "Arachne",
-  "setterUrl": "http://www.theguardian.com/profile/arachne",
+  "setter": {
+    "name": "Arachne",
+    "url": "http://www.theguardian.com/profile/arachne"
+  },
+  "source": {
+    "name": "The Guardian",
+    "url": "http://www.theguardian.com/crosswords/quiptic/91"
+  },
   "title": "Quiptic crossword No 91",
   "width": 15
 }

@@ -261,9 +261,16 @@
       "y": 11
     }
   ],
+  "hasAnswer": false,
   "height": 15,
-  "setter": "Don Putnam",
-  "setterUrl": "http://www.theguardian.com/profile/don-putnam",
+  "setter": {
+    "name": "Don Putnam",
+    "url": "http://www.theguardian.com/profile/don-putnam"
+  },
+  "source": {
+    "name": "The Guardian",
+    "url": "http://www.theguardian.com/crosswords/quiptic/87"
+  },
   "title": "Quiptic crossword No 87",
   "width": 15
 }

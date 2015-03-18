@@ -264,9 +264,16 @@
       "y": 11
     }
   ],
+  "hasAnswer": false,
   "height": 15,
-  "setter": "Moley",
-  "setterUrl": "http://www.theguardian.com/profile/moley",
+  "setter": {
+    "name": "Moley",
+    "url": "http://www.theguardian.com/profile/moley"
+  },
+  "source": {
+    "name": "The Guardian",
+    "url": "http://www.theguardian.com/crosswords/quiptic/89"
+  },
   "title": "Quiptic crossword No 89",
   "width": 15
 }

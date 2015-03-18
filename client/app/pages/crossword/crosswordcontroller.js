@@ -1,4 +1,4 @@
-angular.module('app').controller('CrosswordController', function($scope, $q, $http, auth, IdentityService, ErrorService, crossword) {
+angular.module('app').controller('CrosswordController', function($scope, $q, $http, auth, IdentityService, AlertsService, crossword) {
 
 
   $scope.title = crossword.title;
@@ -55,12 +55,18 @@ angular.module('app').controller('CrosswordController', function($scope, $q, $ht
       $http.post('api/crosswords/' + crossword._id + '/solution', solution).then(function() {
 
       }, function(err) {
-        ErrorService('Sorry', 'There was a problem saving your answers.');
+        AlertsService.error('Sorry', 'There was a problem saving your answers.');
       });
 
     });
   };
 
-
+  $scope.check = function check() {
+    if(!crossword.answer) {
+      AlertsService.info('Sorry', "We don't have the solutuion for this crossword. You can check the " + 
+        "original at " + crossword.source.url);  
+    }
+    
+  };
 
 });

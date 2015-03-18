@@ -48,16 +48,18 @@ phantom.create(function(ph) {
         var crossword = {};
         
         crossword.title = mapNode("//div[@id = 'main-article-info']/h1", function(node) { return node.innerText; });
-
-        var setterDetails = mapNode("//li[@class = 'byline']/a", function(node) { 
+        crossword.source = {
+          name: "The Guardian",
+          url: null
+        };
+        crossword.setter = mapNode("//li[@class = 'byline']/a", function(node) { 
           return {
             name: node.innerText,
-            link: node.href
+            url: node.href
           };
         });
-        crossword.setter = setterDetails.name;
-        crossword.setterUrl = setterDetails.link;
-
+        crossword.hasAnswer = false;
+     
         var crosswordPixelDimensions = mapNode("//form[@id='crossword']//div[@id='grid']", function(n) {
           return {
             width: n.offsetWidth,
@@ -115,6 +117,7 @@ phantom.create(function(ph) {
 
         var title = result.title;
         var destination = path.join(dumpFolder, title + ".json");
+        result.source.url = crosswordUrl;
 
         console.log("Preparing to write '" + title + "' to: " + destination);
         fs.writeFile(destination, JSON.stringify(result, null, 2), function(err) {

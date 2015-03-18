@@ -258,9 +258,16 @@
       "y": 11
     }
   ],
+  "hasAnswer": false,
   "height": 15,
-  "setter": "Hectence",
-  "setterUrl": "http://www.theguardian.com/profile/hectence",
+  "setter": {
+    "name": "Hectence",
+    "url": "http://www.theguardian.com/profile/hectence"
+  },
+  "source": {
+    "name": "The Guardian",
+    "url": "http://www.theguardian.com/crosswords/quiptic/90"
+  },
   "title": "Quiptic crossword No 90",
   "width": 15
 }

@@ -11,11 +11,11 @@ var app = angular.module('app', ['ngRoute', 'auth0', 'angular-storage', 'angular
         templateUrl: 'app/pages/crosswords/crosswords.html',
         controller: 'CrosswordsController',
         resolve: {
-          crosswords: function($http, ErrorService) {
+          crosswords: function($http, AlertsService) {
             return $http.get('api/crosswords').then(function(response) { 
               return response.data; 
             }, function(err) {
-              ErrorService.error('Sorry', 'There was a problem loading the crosswords.');
+              AlertsService.error('Sorry', 'There was a problem loading the crosswords.');
             });
           }
         }
@@ -28,7 +28,7 @@ var app = angular.module('app', ['ngRoute', 'auth0', 'angular-storage', 'angular
             return $http.get('api/crosswords/' + $route.current.params.crosswordId).then(function(response) { 
               return response.data; 
             }, function(err) {
-              ErrorService.error('Sorry', 'There was a problem loading the crossword.');
+              AlertsService.error('Sorry', 'There was a problem loading the crossword.');
             });
           }
         }
@@ -78,25 +78,62 @@ var app = angular.module('app', ['ngRoute', 'auth0', 'angular-storage', 'angular
       }
     });
   });
-angular.module('app').factory('ErrorService', function() {
+angular.module('app').directive('odMenu', function($location, auth, store, IdentityService) {
+  return {
+    restrict: 'E',
+    templateUrl: 'app/menu/od-menu.html',
+    link: function(scope, element, attrs) {
 
-  function ErrorService() {
+      scope.auth = auth;
 
-    this.errors = [];
+
+      scope.login = function() {
+        IdentityService.ensureLoggedIn();
+      };
+
+      scope.logout = function() {
+        auth.signout();
+        store.remove('profile');
+        store.remove('token');
+      };
+
+      scope.isLoggedIn = function() {
+        return auth.isAuthenticated;
+      };
+
+    }
+  };
+});
+angular.module('app').factory('AlertsService', function() {
+
+  function AlertsService() {
+
+    this.alerts = [];
 
   }
 
   //  Logs an error.
-  ErrorService.prototype.error = function error(title, message) {
+  AlertsService.prototype.error = function error(title, message) {
     
-    this.errors.push({
+    this.alerts.push({
+      type: 'error',
       title: title,
       message: message
     });
 
   };
 
-  return new ErrorService();
+  AlertsService.prototype.info = function info(title, message) {
+    
+    this.alerts.push({
+      type: 'info',
+      title: title,
+      message: message
+    });
+
+  };
+
+  return new AlertsService();
 });
 angular.module('app').factory('IdentityService', function($q, auth, store) {
 
@@ -124,31 +161,20 @@ angular.module('app').factory('IdentityService', function($q, auth, store) {
 
   return new IdentityService();
 });
-angular.module('app').directive('odMenu', function($location, auth, store, IdentityService) {
+angular.module('app').directive('odAlerts', function(AlertsService) {
+
   return {
-    restrict: 'E',
-    templateUrl: 'app/menu/od-menu.html',
-    link: function(scope, element, attrs) {
+    restrict: "E",
+    templateUrl: "app/components/od-alerts/od-alerts.html",
+    scope: {
+    },
+    link: function(scope, element, attributes) {
 
-      scope.auth = auth;
-
-
-      scope.login = function() {
-        IdentityService.ensureLoggedIn();
-      };
-
-      scope.logout = function() {
-        auth.signout();
-        store.remove('profile');
-        store.remove('token');
-      };
-
-      scope.isLoggedIn = function() {
-        return auth.isAuthenticated;
-      };
+      scope.alerts = AlertsService.alerts;
 
     }
   };
+
 });
 angular.module('app').directive('odCrossword', function() {
 
@@ -200,25 +226,10 @@ angular.module('app').directive('odCrossword', function() {
   };
 
 });
-angular.module('app').directive('odNotifications', function(ErrorService) {
-
-  return {
-    restrict: "E",
-    templateUrl: "app/components/od-notifications/od-notifications.html",
-    scope: {
-    },
-    link: function(scope, element, attributes) {
-
-      scope.errors = ErrorService.errors;    
-
-    }
-  };
-
-});
 angular.module('app').controller('CreateController', function($scope) {
 
 });
-angular.module('app').controller('CrosswordController', function($scope, $q, $http, auth, IdentityService, ErrorService, crossword) {
+angular.module('app').controller('CrosswordController', function($scope, $q, $http, auth, IdentityService, AlertsService, crossword) {
 
 
   $scope.title = crossword.title;
@@ -275,13 +286,19 @@ angular.module('app').controller('CrosswordController', function($scope, $q, $ht
       $http.post('api/crosswords/' + crossword._id + '/solution', solution).then(function() {
 
       }, function(err) {
-        ErrorService('Sorry', 'There was a problem saving your answers.');
+        AlertsService.error('Sorry', 'There was a problem saving your answers.');
       });
 
     });
   };
 
-
+  $scope.check = function check() {
+    if(!crossword.answer) {
+      AlertsService.info('Sorry', "We don't have the solutuion for this crossword. You can check the " + 
+        "original at " + crossword.source.url);  
+    }
+    
+  };
 
 });
 angular.module('app').controller('CrosswordsController', function($scope, crosswords) {
