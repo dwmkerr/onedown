@@ -1,5 +1,7 @@
 # onedown
 
+[![GuardRails badge](https://badges.production.guardrails.io/dwmkerr/onedown.svg)](https://www.guardrails.io)
+
 For clues, a mode to ask a question on how it works (spoiler alert for answers)
 Star clues
 
