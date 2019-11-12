@@ -1,7 +1,12 @@
 # onedown
 
-For clues, a mode to ask a question on how it works (spoiler alert for answers)
-Star clues
+Work in progress. An old project I was working on, the goal of which was:
+
+1. Pull crosswords from disparate online sources
+2. Push them into a centralised database
+3. Allow users to work on them offline, syncing their progress as needed
+
+This project will probably be archived in future as scraping crosswords would be copyright violation, so beyond a learning exercise on page scraping and data modeling for crosswords themselves, this project has no meaningful real-world use.
 
 ## Local Development
 
