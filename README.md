@@ -8,6 +8,16 @@ Work in progress. An old project I was working on, the goal of which was:
 
 This project will probably be archived in future as scraping crosswords would be copyright violation, so beyond a learning exercise on page scraping and data modeling for crosswords themselves, this project has no meaningful real-world use.
 
+## To Update!
+
+If I decide to work on this again:
+
+1. Eliminate Gulp
+2. Modularise the code a bit more
+3. Use a more modern front-end stack
+
+I have updated the `package.json` to eliminate vulnerabilities, but not tested recently. This is so that if someone clones this to play around at least they should get _safer_ code. It will still need to be tested to get it working again.
+
 ## Local Development
 
 The following data can be exported to environment variables:
